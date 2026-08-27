@@ -53,55 +53,68 @@ export default function UpcomingGames() {
               </button>
               {isOpen && (
                 <ul className="team-sublist">
-                  {entry.teams.map((team) => {
-                    const nextGame = getNextGame(team)
-                    const owner = nextGame
-                      ? getTeamOwner(nextGame.opponent)
-                      : null
-                    const logo = getTeamLogo(team)
-                    return (
-                      <li key={team} className="game-row">
-                        <div className="game-row-top">
-                          <button
-                            type="button"
-                            className="team-name team-name-link"
-                            onClick={() => setDrawerTeam(team)}
-                          >
-                            {logo && (
-                              <img src={logo} alt="" className="team-logo" />
+                  {entry.teams
+                    .map((team) => ({ team, nextGame: getNextGame(team) }))
+                    .sort((a, b) => {
+                      if (!a.nextGame) return 1
+                      if (!b.nextGame) return -1
+                      return (
+                        new Date(a.nextGame.startDate).getTime() -
+                        new Date(b.nextGame.startDate).getTime()
+                      )
+                    })
+                    .map(({ team, nextGame }) => {
+                      const owner = nextGame
+                        ? getTeamOwner(nextGame.opponent)
+                        : null
+                      const logo = getTeamLogo(team)
+                      return (
+                        <li key={team} className="game-row">
+                          <div className="game-row-top">
+                            <button
+                              type="button"
+                              className="team-name team-name-link"
+                              onClick={() => setDrawerTeam(team)}
+                            >
+                              {logo && (
+                                <img
+                                  src={logo}
+                                  alt=""
+                                  className="team-logo"
+                                />
+                              )}
+                              {team}
+                            </button>
+                            {nextGame && (
+                              <span className="kickoff">
+                                {formatKickoff(
+                                  nextGame.startDate,
+                                  nextGame.startTimeTBD,
+                                )}
+                              </span>
                             )}
-                            {team}
-                          </button>
-                          {nextGame && (
-                            <span className="kickoff">
-                              {formatKickoff(
-                                nextGame.startDate,
-                                nextGame.startTimeTBD,
-                              )}
-                            </span>
-                          )}
-                        </div>
-                        <div className="game-row-bottom">
-                          {nextGame ? (
-                            <span className="opponent">
-                              {nextGame.isHome ? 'vs' : '@'}{' '}
-                              {nextGame.opponent}
-                              {owner && (
-                                <span className="opponent-owner-inline">
-                                  {' '}
-                                  ({owner})
-                                </span>
-                              )}
-                            </span>
-                          ) : (
-                            <span className="opponent">
-                              No games remaining
-                            </span>
-                          )}
-                        </div>
-                      </li>
-                    )
-                  })}
+                          </div>
+                          <div className="game-row-bottom">
+                            {nextGame ? (
+                              <span className="opponent">
+                                {nextGame.isHome ? 'vs' : '@'}{' '}
+                                {nextGame.opponent}
+                                {owner && (
+                                  <span className="opponent-owner-inline">
+                                    {' '}
+                                    ({owner})
+                                  </span>
+                                )}
+                              </span>
+                            ) : (
+                              <span className="opponent">
+                                No games remaining
+                              </span>
+                            )}
+                          </div>
+                        </li>
+                      )
+                    })}
                 </ul>
               )}
             </div>
