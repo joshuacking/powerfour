@@ -12,7 +12,7 @@ export default function Leaderboard() {
             <span className="rank">{index + 1}</span>
             <span className="person-name">{entry.person}</span>
             <span className="record">
-              {entry.totalWins}-{entry.totalLosses}
+              {entry.totalWins} <span className="record-label">W</span>
             </span>
           </li>
         ))}

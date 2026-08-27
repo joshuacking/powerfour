@@ -119,6 +119,13 @@ h2 {
   font-weight: 600;
 }
 
+.record-label {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text);
+  opacity: 0.6;
+}
+
 /* Teams page */
 
 .team-list {
