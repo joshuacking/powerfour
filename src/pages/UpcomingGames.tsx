@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import teamsByPerson from '../data/teams-by-person.json'
-import { getNextGame, getTeamOwner } from '../data/schedules'
+import { getNextGame, getTeamOwner, getTeamSchedule } from '../data/schedules'
 
 const roster = Object.entries(teamsByPerson as Record<string, string[]>).map(
   ([person, teams]) => ({ person, teams }),
@@ -28,6 +28,7 @@ export default function UpcomingGames() {
   const [openPerson, setOpenPerson] = useState<string | null>(
     roster[0]?.person ?? null,
   )
+  const [drawerTeam, setDrawerTeam] = useState<string | null>(null)
 
   return (
     <div className="page">
@@ -55,7 +56,13 @@ export default function UpcomingGames() {
                     return (
                       <li key={team} className="game-row">
                         <div className="game-row-top">
-                          <span className="team-name">{team}</span>
+                          <button
+                            type="button"
+                            className="team-name team-name-link"
+                            onClick={() => setDrawerTeam(team)}
+                          >
+                            {team}
+                          </button>
                           {nextGame && (
                             <span className="kickoff">
                               {formatKickoff(
@@ -67,17 +74,16 @@ export default function UpcomingGames() {
                         </div>
                         <div className="game-row-bottom">
                           {nextGame ? (
-                            <>
-                              <span className="opponent">
-                                {nextGame.isHome ? 'vs' : '@'}{' '}
-                                {nextGame.opponent}
-                              </span>
-                              <span
-                                className={`opponent-owner${owner ? '' : ' unowned'}`}
-                              >
-                                {owner ? `${owner}'s team` : 'not in pool'}
-                              </span>
-                            </>
+                            <span className="opponent">
+                              {nextGame.isHome ? 'vs' : '@'}{' '}
+                              {nextGame.opponent}
+                              {owner && (
+                                <span className="opponent-owner-inline">
+                                  {' '}
+                                  ({owner})
+                                </span>
+                              )}
+                            </span>
                           ) : (
                             <span className="opponent">
                               No games remaining
@@ -92,6 +98,65 @@ export default function UpcomingGames() {
             </div>
           )
         })}
+      </div>
+      {drawerTeam && (
+        <TeamScheduleDrawer
+          team={drawerTeam}
+          onClose={() => setDrawerTeam(null)}
+        />
+      )}
+    </div>
+  )
+}
+
+function TeamScheduleDrawer({
+  team,
+  onClose,
+}: {
+  team: string
+  onClose: () => void
+}) {
+  const games = getTeamSchedule(team)
+
+  return (
+    <div className="drawer-overlay" onClick={onClose}>
+      <div className="drawer" onClick={(e) => e.stopPropagation()}>
+        <div className="drawer-header">
+          <span className="drawer-title">{team}</span>
+          <button
+            type="button"
+            className="drawer-close"
+            onClick={onClose}
+            aria-label="Close"
+          >
+            ✕
+          </button>
+        </div>
+        <ul className="drawer-schedule">
+          {games.map((game) => {
+            const owner = getTeamOwner(game.opponent)
+            return (
+              <li
+                key={`${game.opponent}-${game.startDate}`}
+                className="game-row"
+              >
+                <div className="game-row-top">
+                  <span className="kickoff">
+                    {formatKickoff(game.startDate, game.startTimeTBD)}
+                  </span>
+                </div>
+                <div className="game-row-bottom">
+                  <span className="opponent">
+                    {game.isHome ? 'vs' : '@'} {game.opponent}
+                    {owner && (
+                      <span className="opponent-owner-inline"> ({owner})</span>
+                    )}
+                  </span>
+                </div>
+              </li>
+            )
+          })}
+        </ul>
       </div>
     </div>
   )

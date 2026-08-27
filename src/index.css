@@ -6,6 +6,7 @@
   --border: #e5e4e7;
   --accent: #7c3aed;
   --accent-bg: rgba(124, 58, 237, 0.1);
+  --accent2: #0d7a6e;
 
   --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
 
@@ -197,6 +198,16 @@ h2 {
   color: var(--text-h);
 }
 
+.team-name-link {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  font-weight: 600;
+  color: var(--accent);
+  cursor: pointer;
+}
+
 /* Upcoming games page */
 
 .game-row {
@@ -234,17 +245,63 @@ h2 {
   color: var(--text);
 }
 
-.opponent-owner {
-  font-size: 12px;
+.opponent-owner-inline {
+  color: var(--accent2);
   font-weight: 600;
-  color: var(--accent);
-  white-space: nowrap;
 }
 
-.opponent-owner.unowned {
+/* Team schedule drawer */
+
+.drawer-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(8, 6, 13, 0.4);
+  display: flex;
+  align-items: flex-end;
+  z-index: 20;
+}
+
+.drawer {
+  width: 100%;
+  max-height: 80svh;
+  overflow-y: auto;
+  background: var(--bg);
+  border-radius: 16px 16px 0 0;
+  padding: 8px 16px calc(16px + env(safe-area-inset-bottom, 0));
+}
+
+.drawer-header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  background: var(--bg);
+}
+
+.drawer-title {
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--text-h);
+}
+
+.drawer-close {
+  background: none;
+  border: none;
+  font-size: 16px;
   color: var(--text);
-  opacity: 0.5;
-  font-weight: 500;
+  cursor: pointer;
+  padding: 4px 8px;
+}
+
+.drawer-schedule {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 /* Bottom nav */

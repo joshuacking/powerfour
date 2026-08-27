@@ -22,3 +22,7 @@ export function getNextGame(team: string): TeamGame | null {
   const games = schedules[team] ?? []
   return games.find((game) => !game.completed) ?? null
 }
+
+export function getTeamSchedule(team: string): TeamGame[] {
+  return schedules[team] ?? []
+}
