@@ -195,6 +195,9 @@ h2 {
 }
 
 .team-name {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   color: var(--text-h);
 }
 
@@ -206,6 +209,18 @@ h2 {
   font-weight: 600;
   color: var(--accent);
   cursor: pointer;
+}
+
+.team-logo {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.team-logo-lg {
+  width: 26px;
+  height: 26px;
 }
 
 /* Upcoming games page */
@@ -281,6 +296,9 @@ h2 {
 }
 
 .drawer-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   font-size: 17px;
   font-weight: 600;
   color: var(--text-h);

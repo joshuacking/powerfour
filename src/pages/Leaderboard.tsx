@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { getStandings, getTeamRecord } from '../data/standings'
+import { getTeamLogo } from '../data/schedules'
 import { useTeamRecords } from '../hooks/useTeamRecords'
 
 export default function Leaderboard() {
@@ -37,9 +38,15 @@ export default function Leaderboard() {
                   <ul className="team-sublist">
                     {entry.teams.map((team) => {
                       const record = getTeamRecord(records, team)
+                      const logo = getTeamLogo(team)
                       return (
                         <li key={team} className="team-sublist-row">
-                          <span className="team-name">{team}</span>
+                          <span className="team-name">
+                            {logo && (
+                              <img src={logo} alt="" className="team-logo" />
+                            )}
+                            {team}
+                          </span>
                           <span className="record">
                             {record.wins}-{record.losses}
                             {record.ties ? `-${record.ties}` : ''}

@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "fetch-schedules": "node --env-file=.env scripts/fetch-schedules.mjs"
+    "fetch-static-data": "node --env-file=.env scripts/fetch-static-data.mjs"
   },
   "dependencies": {
     "react": "^19.2.8",

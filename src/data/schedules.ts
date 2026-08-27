@@ -1,8 +1,14 @@
 import teamsByPerson from './teams-by-person.json'
 import teamSchedules from './team-schedules.json'
+import teamLogos from './team-logos.json'
 import type { TeamGame } from '../types'
 
 const schedules = teamSchedules as Record<string, TeamGame[]>
+const logos = teamLogos as Record<string, string>
+
+export function getTeamLogo(team: string): string | null {
+  return logos[team] ?? null
+}
 
 const ownerByTeam: Record<string, string> = Object.entries(
   teamsByPerson as Record<string, string[]>,

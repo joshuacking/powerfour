@@ -1,6 +1,11 @@
 import { useState } from 'react'
 import teamsByPerson from '../data/teams-by-person.json'
-import { getNextGame, getTeamOwner, getTeamSchedule } from '../data/schedules'
+import {
+  getNextGame,
+  getTeamLogo,
+  getTeamOwner,
+  getTeamSchedule,
+} from '../data/schedules'
 
 const roster = Object.entries(teamsByPerson as Record<string, string[]>).map(
   ([person, teams]) => ({ person, teams }),
@@ -53,6 +58,7 @@ export default function UpcomingGames() {
                     const owner = nextGame
                       ? getTeamOwner(nextGame.opponent)
                       : null
+                    const logo = getTeamLogo(team)
                     return (
                       <li key={team} className="game-row">
                         <div className="game-row-top">
@@ -61,6 +67,9 @@ export default function UpcomingGames() {
                             className="team-name team-name-link"
                             onClick={() => setDrawerTeam(team)}
                           >
+                            {logo && (
+                              <img src={logo} alt="" className="team-logo" />
+                            )}
                             {team}
                           </button>
                           {nextGame && (
@@ -117,12 +126,18 @@ function TeamScheduleDrawer({
   onClose: () => void
 }) {
   const games = getTeamSchedule(team)
+  const logo = getTeamLogo(team)
 
   return (
     <div className="drawer-overlay" onClick={onClose}>
       <div className="drawer" onClick={(e) => e.stopPropagation()}>
         <div className="drawer-header">
-          <span className="drawer-title">{team}</span>
+          <span className="drawer-title">
+            {logo && (
+              <img src={logo} alt="" className="team-logo team-logo-lg" />
+            )}
+            {team}
+          </span>
           <button
             type="button"
             className="drawer-close"
