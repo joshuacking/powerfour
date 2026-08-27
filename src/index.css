@@ -1,0 +1,198 @@
+:root {
+  --text: #3f3d45;
+  --text-h: #08060d;
+  --bg: #fff;
+  --bg-alt: #f6f5f8;
+  --border: #e5e4e7;
+  --accent: #7c3aed;
+  --accent-bg: rgba(124, 58, 237, 0.1);
+
+  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+
+  font: 16px/145% var(--sans);
+  color-scheme: light;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-weight: 600;
+  color: var(--text-h);
+}
+
+#root {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100svh;
+}
+
+.app-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  padding: env(safe-area-inset-top, 0) 16px 0;
+}
+
+.app-header h1 {
+  margin: 0;
+  padding: 14px 0;
+  font-size: 22px;
+  letter-spacing: -0.3px;
+  color: var(--accent);
+}
+
+.app-main {
+  flex: 1;
+  overflow-y: auto;
+  padding-bottom: 76px;
+}
+
+.page {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.page-title {
+  font-size: 20px;
+  margin: 4px 0 16px;
+}
+
+/* Leaderboard */
+
+.leaderboard-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.leaderboard-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--bg-alt);
+}
+
+.rank {
+  font-weight: 700;
+  color: var(--accent);
+  min-width: 22px;
+}
+
+.person-name {
+  flex: 1;
+  font-weight: 600;
+  color: var(--text-h);
+  text-align: left;
+}
+
+.record {
+  font-variant-numeric: tabular-nums;
+  color: var(--text);
+  font-weight: 600;
+}
+
+/* Teams page */
+
+.team-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.team-card {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--bg-alt);
+}
+
+.team-card-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px;
+  background: none;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  text-align: left;
+}
+
+.team-sublist {
+  list-style: none;
+  margin: 0;
+  padding: 0 14px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.team-sublist-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 10px;
+  background: var(--bg);
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.team-name {
+  color: var(--text-h);
+}
+
+/* Bottom nav */
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  border-top: 1px solid var(--border);
+  background: var(--bg);
+  padding-bottom: env(safe-area-inset-bottom, 0);
+}
+
+.nav-item {
+  flex: 1;
+  text-align: center;
+  padding: 12px 0;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--text);
+}
+
+.nav-item.active {
+  color: var(--accent);
+  background: var(--accent-bg);
+}
