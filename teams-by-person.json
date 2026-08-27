@@ -1,0 +1,82 @@
+{
+  "Dan": [
+    "Ohio State",
+    "Oklahoma",
+    "Tennessee",
+    "South Carolina",
+    "Nebraska",
+    "Colorado"
+  ],
+  "Mike": [
+    "Notre Dame",
+    "Ole Miss",
+    "Houston",
+    "Virginia Tech",
+    "Wisconsin",
+    "North Carolina"
+  ],
+  "Eric": [
+    "Oregon",
+    "Michigan",
+    "Iowa",
+    "Florida",
+    "California",
+    "Boston College"
+  ],
+  "Matt": [
+    "Indiana",
+    "USC",
+    "Louisville",
+    "Georgia Tech",
+    "Wake Forest",
+    "Maryland"
+  ],
+  "Dubs": [
+    "Texas Tech",
+    "Utah",
+    "Virginia",
+    "Missouri",
+    "Vanderbilt",
+    "Northwestern"
+  ],
+  "Ken": [
+    "Miami",
+    "Kansas State",
+    "Washington",
+    "Auburn",
+    "Florida State",
+    "Kentucky"
+  ],
+  "Josh": [
+    "Texas",
+    "Alabama",
+    "Arizona State",
+    "UCLA",
+    "UCF",
+    "Kansas"
+  ],
+  "Chris": [
+    "Georgia",
+    "LSU",
+    "Clemson",
+    "TCU",
+    "Duke",
+    "West Virginia"
+  ],
+  "Pete": [
+    "Penn State",
+    "SMU",
+    "Pitt",
+    "Arizona",
+    "Oklahoma State",
+    "Minnesota"
+  ],
+  "Seth": [
+    "BYU",
+    "Texas A&M",
+    "NC State",
+    "Illinois",
+    "Baylor",
+    "Cincinnati"
+  ]
+}
