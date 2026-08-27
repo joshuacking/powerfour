@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom'
 import BottomNav from './components/BottomNav'
 import Leaderboard from './pages/Leaderboard'
-import Teams from './pages/Teams'
+import UpcomingGames from './pages/UpcomingGames'
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <main className="app-main">
         <Routes>
           <Route path="/" element={<Leaderboard />} />
-          <Route path="/teams" element={<Teams />} />
+          <Route path="/upcoming" element={<UpcomingGames />} />
         </Routes>
       </main>
       <BottomNav />

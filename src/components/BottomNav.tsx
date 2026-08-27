@@ -11,10 +11,10 @@ export default function BottomNav() {
         Leaderboard
       </NavLink>
       <NavLink
-        to="/teams"
+        to="/upcoming"
         className={({ isActive }) => `nav-item${isActive ? ' active' : ''}`}
       >
-        Teams
+        Upcoming Games
       </NavLink>
     </nav>
   )

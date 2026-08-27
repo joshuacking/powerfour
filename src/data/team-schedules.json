@@ -1,0 +1,6602 @@
+{
+  "Ohio State": [
+    {
+      "opponent": "Ball State",
+      "isHome": true,
+      "startDate": "2026-09-05T16:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Texas",
+      "isHome": false,
+      "startDate": "2026-09-12T23:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Kent State",
+      "isHome": true,
+      "startDate": "2026-09-19T16:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Illinois",
+      "isHome": true,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Iowa",
+      "isHome": false,
+      "startDate": "2026-10-03T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Maryland",
+      "isHome": true,
+      "startDate": "2026-10-10T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Indiana",
+      "isHome": false,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "USC",
+      "isHome": false,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Oregon",
+      "isHome": true,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Northwestern",
+      "isHome": true,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Nebraska",
+      "isHome": false,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Michigan",
+      "isHome": true,
+      "startDate": "2026-11-28T17:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Oklahoma": [
+    {
+      "opponent": "UTEP",
+      "isHome": true,
+      "startDate": "2026-09-05T00:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Michigan",
+      "isHome": false,
+      "startDate": "2026-09-12T16:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "New Mexico",
+      "isHome": true,
+      "startDate": "2026-09-19T23:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Georgia",
+      "isHome": false,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Texas",
+      "isHome": true,
+      "startDate": "2026-10-10T19:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Kentucky",
+      "isHome": true,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Mississippi State",
+      "isHome": false,
+      "startDate": "2026-10-24T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "South Carolina",
+      "isHome": true,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Florida",
+      "isHome": false,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Ole Miss",
+      "isHome": true,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Texas A&M",
+      "isHome": true,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Missouri",
+      "isHome": false,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Tennessee": [
+    {
+      "opponent": "Furman",
+      "isHome": true,
+      "startDate": "2026-09-05T19:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Georgia Tech",
+      "isHome": false,
+      "startDate": "2026-09-12T23:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Kennesaw State",
+      "isHome": true,
+      "startDate": "2026-09-19T23:45:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Texas",
+      "isHome": true,
+      "startDate": "2026-09-26T16:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Auburn",
+      "isHome": true,
+      "startDate": "2026-10-03T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Arkansas",
+      "isHome": false,
+      "startDate": "2026-10-10T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Alabama",
+      "isHome": true,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "South Carolina",
+      "isHome": false,
+      "startDate": "2026-10-24T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Kentucky",
+      "isHome": true,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Texas A&M",
+      "isHome": false,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "LSU",
+      "isHome": true,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Vanderbilt",
+      "isHome": false,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "South Carolina": [
+    {
+      "opponent": "Kent State",
+      "isHome": true,
+      "startDate": "2026-09-05T16:45:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Towson",
+      "isHome": true,
+      "startDate": "2026-09-12T23:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Mississippi State",
+      "isHome": true,
+      "startDate": "2026-09-19T20:15:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Alabama",
+      "isHome": false,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Kentucky",
+      "isHome": true,
+      "startDate": "2026-10-03T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Florida",
+      "isHome": false,
+      "startDate": "2026-10-10T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Tennessee",
+      "isHome": true,
+      "startDate": "2026-10-24T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Oklahoma",
+      "isHome": false,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Texas A&M",
+      "isHome": true,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Arkansas",
+      "isHome": false,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Georgia",
+      "isHome": true,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Clemson",
+      "isHome": false,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Nebraska": [
+    {
+      "opponent": "Ohio",
+      "isHome": true,
+      "startDate": "2026-09-05T16:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Bowling Green",
+      "isHome": true,
+      "startDate": "2026-09-12T23:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "North Dakota",
+      "isHome": true,
+      "startDate": "2026-09-19T23:15:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Michigan State",
+      "isHome": false,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Maryland",
+      "isHome": true,
+      "startDate": "2026-10-03T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Indiana",
+      "isHome": true,
+      "startDate": "2026-10-10T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Oregon",
+      "isHome": false,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Washington",
+      "isHome": true,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Illinois",
+      "isHome": false,
+      "startDate": "2026-11-07T01:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Rutgers",
+      "isHome": false,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Ohio State",
+      "isHome": true,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Iowa",
+      "isHome": false,
+      "startDate": "2026-11-27T17:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Colorado": [
+    {
+      "opponent": "Georgia Tech",
+      "isHome": false,
+      "startDate": "2026-09-04T00:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Weber State",
+      "isHome": true,
+      "startDate": "2026-09-12T19:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Northwestern",
+      "isHome": false,
+      "startDate": "2026-09-19T23:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Baylor",
+      "isHome": false,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Texas Tech",
+      "isHome": true,
+      "startDate": "2026-10-03T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Utah",
+      "isHome": true,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Oklahoma State",
+      "isHome": false,
+      "startDate": "2026-10-24T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Kansas State",
+      "isHome": true,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Arizona State",
+      "isHome": false,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Houston",
+      "isHome": true,
+      "startDate": "2026-11-14T03:15:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Cincinnati",
+      "isHome": false,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "UCF",
+      "isHome": true,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Notre Dame": [
+    {
+      "opponent": "Wisconsin",
+      "isHome": true,
+      "startDate": "2026-09-06T23:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Rice",
+      "isHome": true,
+      "startDate": "2026-09-12T19:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Michigan State",
+      "isHome": true,
+      "startDate": "2026-09-19T23:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Purdue",
+      "isHome": false,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "North Carolina",
+      "isHome": false,
+      "startDate": "2026-10-03T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Stanford",
+      "isHome": true,
+      "startDate": "2026-10-10T19:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "BYU",
+      "isHome": false,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Navy",
+      "isHome": false,
+      "startDate": "2026-10-31T16:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Miami",
+      "isHome": true,
+      "startDate": "2026-11-08T00:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Boston College",
+      "isHome": true,
+      "startDate": "2026-11-14T20:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "SMU",
+      "isHome": true,
+      "startDate": "2026-11-22T00:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Syracuse",
+      "isHome": false,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Ole Miss": [
+    {
+      "opponent": "Louisville",
+      "isHome": true,
+      "startDate": "2026-09-06T23:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Charlotte",
+      "isHome": true,
+      "startDate": "2026-09-12T23:45:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "LSU",
+      "isHome": true,
+      "startDate": "2026-09-19T23:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Florida",
+      "isHome": false,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Vanderbilt",
+      "isHome": false,
+      "startDate": "2026-10-10T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Missouri",
+      "isHome": true,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Texas",
+      "isHome": false,
+      "startDate": "2026-10-24T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Auburn",
+      "isHome": true,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Georgia",
+      "isHome": true,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Oklahoma",
+      "isHome": false,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Wofford",
+      "isHome": true,
+      "startDate": "2026-11-21T17:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Mississippi State",
+      "isHome": true,
+      "startDate": "2026-11-27T17:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Houston": [
+    {
+      "opponent": "Oregon State",
+      "isHome": true,
+      "startDate": "2026-09-05T16:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Southern",
+      "isHome": true,
+      "startDate": "2026-09-12T23:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Texas Tech",
+      "isHome": false,
+      "startDate": "2026-09-19T00:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Georgia Southern",
+      "isHome": false,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "UCF",
+      "isHome": true,
+      "startDate": "2026-10-03T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Kansas State",
+      "isHome": false,
+      "startDate": "2026-10-10T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Oklahoma State",
+      "isHome": true,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Utah",
+      "isHome": false,
+      "startDate": "2026-10-24T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Cincinnati",
+      "isHome": true,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Colorado",
+      "isHome": false,
+      "startDate": "2026-11-14T03:15:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "West Virginia",
+      "isHome": false,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Baylor",
+      "isHome": true,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Virginia Tech": [
+    {
+      "opponent": "VMI",
+      "isHome": true,
+      "startDate": "2026-09-05T23:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Old Dominion",
+      "isHome": true,
+      "startDate": "2026-09-12T16:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Maryland",
+      "isHome": false,
+      "startDate": "2026-09-19T23:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Boston College",
+      "isHome": false,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Pitt",
+      "isHome": true,
+      "startDate": "2026-10-02T23:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "California",
+      "isHome": false,
+      "startDate": "2026-10-10T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Georgia Tech",
+      "isHome": true,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Clemson",
+      "isHome": false,
+      "startDate": "2026-10-24T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "SMU",
+      "isHome": false,
+      "startDate": "2026-11-07T00:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Stanford",
+      "isHome": true,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Miami",
+      "isHome": false,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Virginia",
+      "isHome": true,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Wisconsin": [
+    {
+      "opponent": "Notre Dame",
+      "isHome": false,
+      "startDate": "2026-09-06T23:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Western Illinois",
+      "isHome": true,
+      "startDate": "2026-09-12T23:15:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Eastern Michigan",
+      "isHome": true,
+      "startDate": "2026-09-19T16:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Penn State",
+      "isHome": false,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Michigan State",
+      "isHome": true,
+      "startDate": "2026-10-03T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "UCLA",
+      "isHome": false,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "USC",
+      "isHome": true,
+      "startDate": "2026-10-24T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Iowa",
+      "isHome": false,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Rutgers",
+      "isHome": true,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Maryland",
+      "isHome": false,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Purdue",
+      "isHome": false,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Minnesota",
+      "isHome": true,
+      "startDate": "2026-11-28T00:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "North Carolina": [
+    {
+      "opponent": "TCU",
+      "isHome": false,
+      "startDate": "2026-08-29T16:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "East Tennessee State",
+      "isHome": true,
+      "startDate": "2026-09-12T16:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Clemson",
+      "isHome": false,
+      "startDate": "2026-09-19T16:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Notre Dame",
+      "isHome": true,
+      "startDate": "2026-10-03T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Pitt",
+      "isHome": false,
+      "startDate": "2026-10-10T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Duke",
+      "isHome": false,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Syracuse",
+      "isHome": true,
+      "startDate": "2026-10-24T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Miami",
+      "isHome": true,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "UConn",
+      "isHome": false,
+      "startDate": "2026-11-07T17:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Louisville",
+      "isHome": true,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Virginia",
+      "isHome": false,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "NC State",
+      "isHome": true,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Oregon": [
+    {
+      "opponent": "Boise State",
+      "isHome": true,
+      "startDate": "2026-09-05T19:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Oklahoma State",
+      "isHome": false,
+      "startDate": "2026-09-12T16:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Portland State",
+      "isHome": true,
+      "startDate": "2026-09-19T02:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "USC",
+      "isHome": false,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "UCLA",
+      "isHome": true,
+      "startDate": "2026-10-10T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Nebraska",
+      "isHome": true,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Illinois",
+      "isHome": false,
+      "startDate": "2026-10-24T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Northwestern",
+      "isHome": true,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Ohio State",
+      "isHome": false,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Michigan",
+      "isHome": true,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Michigan State",
+      "isHome": false,
+      "startDate": "2026-11-21T01:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Washington",
+      "isHome": true,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Michigan": [
+    {
+      "opponent": "Western Michigan",
+      "isHome": true,
+      "startDate": "2026-09-05T23:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Oklahoma",
+      "isHome": true,
+      "startDate": "2026-09-12T16:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "UTEP",
+      "isHome": true,
+      "startDate": "2026-09-19T19:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Iowa",
+      "isHome": true,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Minnesota",
+      "isHome": false,
+      "startDate": "2026-10-03T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Penn State",
+      "isHome": true,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Indiana",
+      "isHome": true,
+      "startDate": "2026-10-24T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Rutgers",
+      "isHome": false,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Michigan State",
+      "isHome": true,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Oregon",
+      "isHome": false,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "UCLA",
+      "isHome": true,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Ohio State",
+      "isHome": false,
+      "startDate": "2026-11-28T17:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Iowa": [
+    {
+      "opponent": "Northern Illinois",
+      "isHome": true,
+      "startDate": "2026-09-05T20:15:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Iowa State",
+      "isHome": true,
+      "startDate": "2026-09-12T23:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Northern Iowa",
+      "isHome": true,
+      "startDate": "2026-09-19T20:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Michigan",
+      "isHome": false,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Ohio State",
+      "isHome": true,
+      "startDate": "2026-10-03T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Washington",
+      "isHome": false,
+      "startDate": "2026-10-10T01:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Minnesota",
+      "isHome": false,
+      "startDate": "2026-10-24T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Wisconsin",
+      "isHome": true,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Northwestern",
+      "isHome": false,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Purdue",
+      "isHome": true,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Illinois",
+      "isHome": false,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Nebraska",
+      "isHome": true,
+      "startDate": "2026-11-27T17:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Florida": [
+    {
+      "opponent": "Florida Atlantic",
+      "isHome": true,
+      "startDate": "2026-09-05T23:45:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Campbell",
+      "isHome": true,
+      "startDate": "2026-09-12T21:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Auburn",
+      "isHome": false,
+      "startDate": "2026-09-19T23:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Ole Miss",
+      "isHome": true,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Missouri",
+      "isHome": false,
+      "startDate": "2026-10-03T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "South Carolina",
+      "isHome": true,
+      "startDate": "2026-10-10T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Texas",
+      "isHome": false,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Georgia",
+      "isHome": false,
+      "startDate": "2026-10-31T19:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Oklahoma",
+      "isHome": true,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Kentucky",
+      "isHome": false,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Vanderbilt",
+      "isHome": true,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Florida State",
+      "isHome": false,
+      "startDate": "2026-11-27T20:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "California": [
+    {
+      "opponent": "UCLA",
+      "isHome": true,
+      "startDate": "2026-09-06T02:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Syracuse",
+      "isHome": false,
+      "startDate": "2026-09-12T19:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Wagner",
+      "isHome": true,
+      "startDate": "2026-09-19T19:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Clemson",
+      "isHome": true,
+      "startDate": "2026-09-26T02:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "UNLV",
+      "isHome": false,
+      "startDate": "2026-10-03T19:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Virginia Tech",
+      "isHome": true,
+      "startDate": "2026-10-10T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Wake Forest",
+      "isHome": true,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "SMU",
+      "isHome": false,
+      "startDate": "2026-10-24T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "NC State",
+      "isHome": false,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Virginia",
+      "isHome": false,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Stanford",
+      "isHome": true,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Pitt",
+      "isHome": true,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Boston College": [
+    {
+      "opponent": "Cincinnati",
+      "isHome": false,
+      "startDate": "2026-09-05T19:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Rutgers",
+      "isHome": true,
+      "startDate": "2026-09-11T23:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Maine",
+      "isHome": true,
+      "startDate": "2026-09-19T18:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Virginia Tech",
+      "isHome": true,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "SMU",
+      "isHome": false,
+      "startDate": "2026-10-03T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Pitt",
+      "isHome": true,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Georgia Tech",
+      "isHome": false,
+      "startDate": "2026-10-24T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Duke",
+      "isHome": false,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Florida State",
+      "isHome": true,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Notre Dame",
+      "isHome": false,
+      "startDate": "2026-11-14T20:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Syracuse",
+      "isHome": true,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Miami",
+      "isHome": false,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Indiana": [
+    {
+      "opponent": "North Texas",
+      "isHome": true,
+      "startDate": "2026-09-05T16:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Howard",
+      "isHome": true,
+      "startDate": "2026-09-12T16:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Western Kentucky",
+      "isHome": true,
+      "startDate": "2026-09-19T20:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Northwestern",
+      "isHome": true,
+      "startDate": "2026-09-26T00:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Rutgers",
+      "isHome": false,
+      "startDate": "2026-10-04T00:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Nebraska",
+      "isHome": false,
+      "startDate": "2026-10-10T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Ohio State",
+      "isHome": true,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Michigan",
+      "isHome": false,
+      "startDate": "2026-10-24T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Minnesota",
+      "isHome": true,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "USC",
+      "isHome": true,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Washington",
+      "isHome": false,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Purdue",
+      "isHome": true,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "USC": [
+    {
+      "opponent": "San José State",
+      "isHome": true,
+      "startDate": "2026-08-29T19:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Fresno State",
+      "isHome": true,
+      "startDate": "2026-09-05T01:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Louisiana",
+      "isHome": true,
+      "startDate": "2026-09-13T03:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Rutgers",
+      "isHome": false,
+      "startDate": "2026-09-19T19:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Oregon",
+      "isHome": true,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Washington",
+      "isHome": true,
+      "startDate": "2026-10-03T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Penn State",
+      "isHome": false,
+      "startDate": "2026-10-10T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Wisconsin",
+      "isHome": false,
+      "startDate": "2026-10-24T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Ohio State",
+      "isHome": true,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Indiana",
+      "isHome": false,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Maryland",
+      "isHome": true,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "UCLA",
+      "isHome": false,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Louisville": [
+    {
+      "opponent": "Ole Miss",
+      "isHome": false,
+      "startDate": "2026-09-06T23:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Villanova",
+      "isHome": true,
+      "startDate": "2026-09-11T23:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "SMU",
+      "isHome": true,
+      "startDate": "2026-09-19T19:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Wake Forest",
+      "isHome": true,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "NC State",
+      "isHome": false,
+      "startDate": "2026-10-03T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Florida State",
+      "isHome": true,
+      "startDate": "2026-10-09T23:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Syracuse",
+      "isHome": false,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Stanford",
+      "isHome": true,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Georgia Tech",
+      "isHome": false,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "North Carolina",
+      "isHome": false,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Pitt",
+      "isHome": true,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Kentucky",
+      "isHome": false,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Georgia Tech": [
+    {
+      "opponent": "Colorado",
+      "isHome": true,
+      "startDate": "2026-09-04T00:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Tennessee",
+      "isHome": true,
+      "startDate": "2026-09-12T23:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Mercer",
+      "isHome": true,
+      "startDate": "2026-09-19T16:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Stanford",
+      "isHome": false,
+      "startDate": "2026-09-27T02:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Duke",
+      "isHome": true,
+      "startDate": "2026-10-10T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Virginia Tech",
+      "isHome": false,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Boston College",
+      "isHome": true,
+      "startDate": "2026-10-24T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Pitt",
+      "isHome": false,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Louisville",
+      "isHome": true,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Clemson",
+      "isHome": false,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Wake Forest",
+      "isHome": true,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Georgia",
+      "isHome": false,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Wake Forest": [
+    {
+      "opponent": "Akron",
+      "isHome": true,
+      "startDate": "2026-09-03T23:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Purdue",
+      "isHome": false,
+      "startDate": "2026-09-12T16:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Miami",
+      "isHome": true,
+      "startDate": "2026-09-18T23:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Louisville",
+      "isHome": false,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Stanford",
+      "isHome": true,
+      "startDate": "2026-10-03T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "NC State",
+      "isHome": false,
+      "startDate": "2026-10-10T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "California",
+      "isHome": false,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Virginia",
+      "isHome": true,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Merrimack",
+      "isHome": true,
+      "startDate": "2026-11-07T17:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "SMU",
+      "isHome": false,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Georgia Tech",
+      "isHome": false,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Duke",
+      "isHome": true,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Maryland": [
+    {
+      "opponent": "Hampton",
+      "isHome": true,
+      "startDate": "2026-09-06T00:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "UConn",
+      "isHome": false,
+      "startDate": "2026-09-12T19:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Virginia Tech",
+      "isHome": true,
+      "startDate": "2026-09-19T23:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "UCLA",
+      "isHome": true,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Nebraska",
+      "isHome": false,
+      "startDate": "2026-10-03T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Ohio State",
+      "isHome": false,
+      "startDate": "2026-10-10T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Rutgers",
+      "isHome": true,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Illinois",
+      "isHome": true,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Purdue",
+      "isHome": false,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Wisconsin",
+      "isHome": true,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "USC",
+      "isHome": false,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Penn State",
+      "isHome": true,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Texas Tech": [
+    {
+      "opponent": "Abilene Christian",
+      "isHome": true,
+      "startDate": "2026-09-05T23:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Oregon State",
+      "isHome": false,
+      "startDate": "2026-09-12T23:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Houston",
+      "isHome": true,
+      "startDate": "2026-09-19T00:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Sam Houston",
+      "isHome": true,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Colorado",
+      "isHome": false,
+      "startDate": "2026-10-03T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Arizona State",
+      "isHome": true,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Cincinnati",
+      "isHome": false,
+      "startDate": "2026-10-24T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Arizona",
+      "isHome": true,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "West Virginia",
+      "isHome": true,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Oklahoma State",
+      "isHome": false,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Baylor",
+      "isHome": false,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "TCU",
+      "isHome": true,
+      "startDate": "2026-11-27T01:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Utah": [
+    {
+      "opponent": "Idaho",
+      "isHome": true,
+      "startDate": "2026-09-04T01:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Arkansas",
+      "isHome": true,
+      "startDate": "2026-09-13T02:15:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Utah State",
+      "isHome": true,
+      "startDate": "2026-09-19T19:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Iowa State",
+      "isHome": false,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Kansas",
+      "isHome": true,
+      "startDate": "2026-10-10T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Colorado",
+      "isHome": false,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Houston",
+      "isHome": true,
+      "startDate": "2026-10-24T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Cincinnati",
+      "isHome": false,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "BYU",
+      "isHome": true,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Arizona",
+      "isHome": false,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "TCU",
+      "isHome": false,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "West Virginia",
+      "isHome": true,
+      "startDate": "2026-11-28T02:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Virginia": [
+    {
+      "opponent": "NC State",
+      "isHome": true,
+      "startDate": "2026-08-29T19:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Norfolk State",
+      "isHome": true,
+      "startDate": "2026-09-11T23:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "West Virginia",
+      "isHome": true,
+      "startDate": "2026-09-19T23:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Delaware",
+      "isHome": true,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Florida State",
+      "isHome": false,
+      "startDate": "2026-10-03T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Syracuse",
+      "isHome": true,
+      "startDate": "2026-10-10T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "SMU",
+      "isHome": false,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Duke",
+      "isHome": true,
+      "startDate": "2026-10-23T23:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Wake Forest",
+      "isHome": false,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "California",
+      "isHome": true,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "North Carolina",
+      "isHome": true,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Virginia Tech",
+      "isHome": false,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Missouri": [
+    {
+      "opponent": "Arkansas-Pine Bluff",
+      "isHome": true,
+      "startDate": "2026-09-04T00:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Kansas",
+      "isHome": false,
+      "startDate": "2026-09-12T00:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Troy",
+      "isHome": true,
+      "startDate": "2026-09-19T16:45:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Mississippi State",
+      "isHome": false,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Florida",
+      "isHome": true,
+      "startDate": "2026-10-03T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Texas A&M",
+      "isHome": true,
+      "startDate": "2026-10-10T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Ole Miss",
+      "isHome": false,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Arkansas",
+      "isHome": false,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Texas",
+      "isHome": true,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Georgia",
+      "isHome": false,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Kentucky",
+      "isHome": true,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Oklahoma",
+      "isHome": true,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Vanderbilt": [
+    {
+      "opponent": "Austin Peay",
+      "isHome": true,
+      "startDate": "2026-09-05T23:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Delaware",
+      "isHome": true,
+      "startDate": "2026-09-12T20:15:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "NC State",
+      "isHome": true,
+      "startDate": "2026-09-19T16:45:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Auburn",
+      "isHome": false,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Georgia",
+      "isHome": false,
+      "startDate": "2026-10-03T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Ole Miss",
+      "isHome": true,
+      "startDate": "2026-10-10T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Arkansas",
+      "isHome": true,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Kentucky",
+      "isHome": false,
+      "startDate": "2026-10-24T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Mississippi State",
+      "isHome": false,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Alabama",
+      "isHome": true,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Florida",
+      "isHome": false,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Tennessee",
+      "isHome": true,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Northwestern": [
+    {
+      "opponent": "South Dakota State",
+      "isHome": true,
+      "startDate": "2026-09-06T00:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Colorado",
+      "isHome": true,
+      "startDate": "2026-09-19T23:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Indiana",
+      "isHome": false,
+      "startDate": "2026-09-26T00:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Penn State",
+      "isHome": true,
+      "startDate": "2026-10-03T00:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Ball State",
+      "isHome": true,
+      "startDate": "2026-10-10T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Michigan State",
+      "isHome": false,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Rutgers",
+      "isHome": true,
+      "startDate": "2026-10-24T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Oregon",
+      "isHome": false,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Iowa",
+      "isHome": true,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Ohio State",
+      "isHome": false,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Minnesota",
+      "isHome": false,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Illinois",
+      "isHome": true,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Miami": [
+    {
+      "opponent": "Stanford",
+      "isHome": false,
+      "startDate": "2026-09-05T01:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Florida A&M",
+      "isHome": true,
+      "startDate": "2026-09-11T00:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Wake Forest",
+      "isHome": false,
+      "startDate": "2026-09-18T23:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Central Michigan",
+      "isHome": true,
+      "startDate": "2026-09-26T22:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Clemson",
+      "isHome": false,
+      "startDate": "2026-10-03T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Florida State",
+      "isHome": true,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Pitt",
+      "isHome": true,
+      "startDate": "2026-10-24T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "North Carolina",
+      "isHome": false,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Notre Dame",
+      "isHome": false,
+      "startDate": "2026-11-08T00:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Duke",
+      "isHome": true,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Virginia Tech",
+      "isHome": true,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Boston College",
+      "isHome": true,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Kansas State": [
+    {
+      "opponent": "Nicholls",
+      "isHome": true,
+      "startDate": "2026-09-05T23:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Washington State",
+      "isHome": true,
+      "startDate": "2026-09-12T16:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Tulane",
+      "isHome": true,
+      "startDate": "2026-09-19T16:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Cincinnati",
+      "isHome": false,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Houston",
+      "isHome": true,
+      "startDate": "2026-10-10T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Kansas",
+      "isHome": true,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Arizona State",
+      "isHome": false,
+      "startDate": "2026-10-24T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Colorado",
+      "isHome": false,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Oklahoma State",
+      "isHome": true,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "TCU",
+      "isHome": false,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Arizona",
+      "isHome": true,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Iowa State",
+      "isHome": false,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Washington": [
+    {
+      "opponent": "Washington State",
+      "isHome": true,
+      "startDate": "2026-09-06T20:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Utah State",
+      "isHome": true,
+      "startDate": "2026-09-12T19:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Eastern Washington",
+      "isHome": true,
+      "startDate": "2026-09-19T23:15:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Minnesota",
+      "isHome": true,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "USC",
+      "isHome": false,
+      "startDate": "2026-10-03T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Iowa",
+      "isHome": true,
+      "startDate": "2026-10-10T01:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Purdue",
+      "isHome": false,
+      "startDate": "2026-10-17T00:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Nebraska",
+      "isHome": false,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Penn State",
+      "isHome": true,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Michigan State",
+      "isHome": false,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Indiana",
+      "isHome": true,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Oregon",
+      "isHome": false,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Auburn": [
+    {
+      "opponent": "Baylor",
+      "isHome": true,
+      "startDate": "2026-09-05T19:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Southern Miss",
+      "isHome": true,
+      "startDate": "2026-09-12T23:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Florida",
+      "isHome": true,
+      "startDate": "2026-09-19T23:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Vanderbilt",
+      "isHome": true,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Tennessee",
+      "isHome": false,
+      "startDate": "2026-10-03T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Georgia",
+      "isHome": false,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "LSU",
+      "isHome": true,
+      "startDate": "2026-10-24T16:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Ole Miss",
+      "isHome": false,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Arkansas",
+      "isHome": true,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Mississippi State",
+      "isHome": false,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Samford",
+      "isHome": true,
+      "startDate": "2026-11-21T20:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Alabama",
+      "isHome": false,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Florida State": [
+    {
+      "opponent": "New Mexico State",
+      "isHome": true,
+      "startDate": "2026-08-29T23:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "SMU",
+      "isHome": true,
+      "startDate": "2026-09-07T23:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Alabama",
+      "isHome": false,
+      "startDate": "2026-09-19T19:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Central Arkansas",
+      "isHome": true,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Virginia",
+      "isHome": true,
+      "startDate": "2026-10-03T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Louisville",
+      "isHome": false,
+      "startDate": "2026-10-09T23:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Miami",
+      "isHome": false,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Clemson",
+      "isHome": true,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Boston College",
+      "isHome": false,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Pitt",
+      "isHome": false,
+      "startDate": "2026-11-14T00:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "NC State",
+      "isHome": true,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Florida",
+      "isHome": true,
+      "startDate": "2026-11-27T20:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Kentucky": [
+    {
+      "opponent": "Youngstown State",
+      "isHome": true,
+      "startDate": "2026-09-05T17:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Alabama",
+      "isHome": true,
+      "startDate": "2026-09-12T19:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Texas A&M",
+      "isHome": false,
+      "startDate": "2026-09-19T19:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "South Alabama",
+      "isHome": true,
+      "startDate": "2026-09-26T16:45:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "South Carolina",
+      "isHome": false,
+      "startDate": "2026-10-03T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "LSU",
+      "isHome": true,
+      "startDate": "2026-10-10T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Oklahoma",
+      "isHome": false,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Vanderbilt",
+      "isHome": true,
+      "startDate": "2026-10-24T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Tennessee",
+      "isHome": false,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Florida",
+      "isHome": true,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Missouri",
+      "isHome": false,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Louisville",
+      "isHome": true,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Texas": [
+    {
+      "opponent": "Texas State",
+      "isHome": true,
+      "startDate": "2026-09-05T19:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Ohio State",
+      "isHome": true,
+      "startDate": "2026-09-12T23:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "UTSA",
+      "isHome": true,
+      "startDate": "2026-09-20T00:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Tennessee",
+      "isHome": false,
+      "startDate": "2026-09-26T16:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Oklahoma",
+      "isHome": false,
+      "startDate": "2026-10-10T19:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Florida",
+      "isHome": true,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Ole Miss",
+      "isHome": true,
+      "startDate": "2026-10-24T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Mississippi State",
+      "isHome": true,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Missouri",
+      "isHome": false,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "LSU",
+      "isHome": false,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Arkansas",
+      "isHome": true,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Texas A&M",
+      "isHome": false,
+      "startDate": "2026-11-28T00:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Alabama": [
+    {
+      "opponent": "East Carolina",
+      "isHome": true,
+      "startDate": "2026-09-05T16:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Kentucky",
+      "isHome": false,
+      "startDate": "2026-09-12T19:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Florida State",
+      "isHome": true,
+      "startDate": "2026-09-19T19:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "South Carolina",
+      "isHome": true,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Mississippi State",
+      "isHome": false,
+      "startDate": "2026-10-03T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Georgia",
+      "isHome": true,
+      "startDate": "2026-10-10T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Tennessee",
+      "isHome": false,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Texas A&M",
+      "isHome": true,
+      "startDate": "2026-10-24T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "LSU",
+      "isHome": false,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Vanderbilt",
+      "isHome": false,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Chattanooga",
+      "isHome": true,
+      "startDate": "2026-11-21T19:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Auburn",
+      "isHome": true,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Arizona State": [
+    {
+      "opponent": "Morgan State",
+      "isHome": true,
+      "startDate": "2026-09-06T02:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Texas A&M",
+      "isHome": false,
+      "startDate": "2026-09-12T16:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Kansas",
+      "isHome": false,
+      "startDate": "2026-09-19T16:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Baylor",
+      "isHome": true,
+      "startDate": "2026-10-03T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Hawai'i",
+      "isHome": true,
+      "startDate": "2026-10-10T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Texas Tech",
+      "isHome": false,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Kansas State",
+      "isHome": true,
+      "startDate": "2026-10-24T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "BYU",
+      "isHome": false,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Colorado",
+      "isHome": true,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "UCF",
+      "isHome": false,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Oklahoma State",
+      "isHome": true,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Arizona",
+      "isHome": false,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "UCLA": [
+    {
+      "opponent": "California",
+      "isHome": false,
+      "startDate": "2026-09-06T02:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "San Diego State",
+      "isHome": true,
+      "startDate": "2026-09-12T23:15:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Purdue",
+      "isHome": true,
+      "startDate": "2026-09-20T03:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Maryland",
+      "isHome": false,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Oregon",
+      "isHome": false,
+      "startDate": "2026-10-10T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Wisconsin",
+      "isHome": true,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Michigan State",
+      "isHome": true,
+      "startDate": "2026-10-24T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Nevada",
+      "isHome": true,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Minnesota",
+      "isHome": false,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Illinois",
+      "isHome": true,
+      "startDate": "2026-11-14T02:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Michigan",
+      "isHome": false,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "USC",
+      "isHome": true,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "UCF": [
+    {
+      "opponent": "Bethune-Cookman",
+      "isHome": true,
+      "startDate": "2026-09-03T23:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Pitt",
+      "isHome": false,
+      "startDate": "2026-09-12T19:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Georgia State",
+      "isHome": true,
+      "startDate": "2026-09-19T23:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "TCU",
+      "isHome": true,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Houston",
+      "isHome": false,
+      "startDate": "2026-10-03T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Oklahoma State",
+      "isHome": false,
+      "startDate": "2026-10-10T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "BYU",
+      "isHome": true,
+      "startDate": "2026-10-24T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Baylor",
+      "isHome": true,
+      "startDate": "2026-10-30T23:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Kansas",
+      "isHome": false,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Arizona State",
+      "isHome": true,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Iowa State",
+      "isHome": true,
+      "startDate": "2026-11-20T23:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Colorado",
+      "isHome": false,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Kansas": [
+    {
+      "opponent": "Long Island University",
+      "isHome": true,
+      "startDate": "2026-09-05T00:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Missouri",
+      "isHome": true,
+      "startDate": "2026-09-12T00:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Arizona State",
+      "isHome": true,
+      "startDate": "2026-09-19T16:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Middle Tennessee",
+      "isHome": true,
+      "startDate": "2026-10-03T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Utah",
+      "isHome": false,
+      "startDate": "2026-10-10T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Kansas State",
+      "isHome": false,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Baylor",
+      "isHome": true,
+      "startDate": "2026-10-24T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "TCU",
+      "isHome": false,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "UCF",
+      "isHome": true,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "West Virginia",
+      "isHome": false,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "BYU",
+      "isHome": true,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Oklahoma State",
+      "isHome": false,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Georgia": [
+    {
+      "opponent": "Tennessee State",
+      "isHome": true,
+      "startDate": "2026-09-05T19:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Western Kentucky",
+      "isHome": true,
+      "startDate": "2026-09-12T16:45:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Arkansas",
+      "isHome": false,
+      "startDate": "2026-09-19T16:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Oklahoma",
+      "isHome": true,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Vanderbilt",
+      "isHome": true,
+      "startDate": "2026-10-03T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Alabama",
+      "isHome": false,
+      "startDate": "2026-10-10T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Auburn",
+      "isHome": true,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Florida",
+      "isHome": true,
+      "startDate": "2026-10-31T19:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Ole Miss",
+      "isHome": false,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Missouri",
+      "isHome": true,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "South Carolina",
+      "isHome": false,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Georgia Tech",
+      "isHome": true,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "LSU": [
+    {
+      "opponent": "Clemson",
+      "isHome": true,
+      "startDate": "2026-09-05T23:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Louisiana Tech",
+      "isHome": true,
+      "startDate": "2026-09-12T23:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Ole Miss",
+      "isHome": false,
+      "startDate": "2026-09-19T23:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Texas A&M",
+      "isHome": true,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "McNeese",
+      "isHome": true,
+      "startDate": "2026-10-03T23:45:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Kentucky",
+      "isHome": false,
+      "startDate": "2026-10-10T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Mississippi State",
+      "isHome": true,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Auburn",
+      "isHome": false,
+      "startDate": "2026-10-24T16:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Alabama",
+      "isHome": true,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Texas",
+      "isHome": true,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Tennessee",
+      "isHome": false,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Arkansas",
+      "isHome": false,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Clemson": [
+    {
+      "opponent": "LSU",
+      "isHome": false,
+      "startDate": "2026-09-05T23:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Georgia Southern",
+      "isHome": true,
+      "startDate": "2026-09-12T23:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "North Carolina",
+      "isHome": true,
+      "startDate": "2026-09-19T16:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "California",
+      "isHome": false,
+      "startDate": "2026-09-26T02:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Miami",
+      "isHome": true,
+      "startDate": "2026-10-03T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Charleston Southern",
+      "isHome": true,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Virginia Tech",
+      "isHome": true,
+      "startDate": "2026-10-24T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Florida State",
+      "isHome": false,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Syracuse",
+      "isHome": false,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Georgia Tech",
+      "isHome": true,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Duke",
+      "isHome": false,
+      "startDate": "2026-11-21T00:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "South Carolina",
+      "isHome": true,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "TCU": [
+    {
+      "opponent": "North Carolina",
+      "isHome": true,
+      "startDate": "2026-08-29T16:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Grambling",
+      "isHome": true,
+      "startDate": "2026-09-13T00:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Arkansas State",
+      "isHome": true,
+      "startDate": "2026-09-20T00:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "UCF",
+      "isHome": false,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "BYU",
+      "isHome": true,
+      "startDate": "2026-10-03T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Baylor",
+      "isHome": false,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "West Virginia",
+      "isHome": true,
+      "startDate": "2026-10-24T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Kansas",
+      "isHome": true,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Arizona",
+      "isHome": false,
+      "startDate": "2026-11-07T03:15:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Kansas State",
+      "isHome": true,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Utah",
+      "isHome": true,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Texas Tech",
+      "isHome": false,
+      "startDate": "2026-11-27T01:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Duke": [
+    {
+      "opponent": "Tulane",
+      "isHome": true,
+      "startDate": "2026-09-05T19:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Illinois",
+      "isHome": false,
+      "startDate": "2026-09-12T19:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Stanford",
+      "isHome": true,
+      "startDate": "2026-09-19T20:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "William & Mary",
+      "isHome": true,
+      "startDate": "2026-09-26T19:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Georgia Tech",
+      "isHome": false,
+      "startDate": "2026-10-10T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "North Carolina",
+      "isHome": true,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Virginia",
+      "isHome": false,
+      "startDate": "2026-10-23T23:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Boston College",
+      "isHome": true,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "NC State",
+      "isHome": false,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Miami",
+      "isHome": false,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Clemson",
+      "isHome": true,
+      "startDate": "2026-11-21T00:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Wake Forest",
+      "isHome": false,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "West Virginia": [
+    {
+      "opponent": "Coastal Carolina",
+      "isHome": true,
+      "startDate": "2026-09-05T16:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "UT Martin",
+      "isHome": true,
+      "startDate": "2026-09-12T17:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Virginia",
+      "isHome": false,
+      "startDate": "2026-09-19T23:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Oklahoma State",
+      "isHome": true,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Iowa State",
+      "isHome": false,
+      "startDate": "2026-10-03T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Arizona",
+      "isHome": true,
+      "startDate": "2026-10-10T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Cincinnati",
+      "isHome": true,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "TCU",
+      "isHome": false,
+      "startDate": "2026-10-24T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Texas Tech",
+      "isHome": false,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Kansas",
+      "isHome": true,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Houston",
+      "isHome": true,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Utah",
+      "isHome": false,
+      "startDate": "2026-11-28T02:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Penn State": [
+    {
+      "opponent": "Marshall",
+      "isHome": true,
+      "startDate": "2026-09-05T19:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Temple",
+      "isHome": false,
+      "startDate": "2026-09-12T16:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Buffalo",
+      "isHome": true,
+      "startDate": "2026-09-19T16:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Wisconsin",
+      "isHome": true,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Northwestern",
+      "isHome": false,
+      "startDate": "2026-10-03T00:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "USC",
+      "isHome": true,
+      "startDate": "2026-10-10T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Michigan",
+      "isHome": false,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Purdue",
+      "isHome": true,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Washington",
+      "isHome": false,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Minnesota",
+      "isHome": true,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Rutgers",
+      "isHome": true,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Maryland",
+      "isHome": false,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "SMU": [
+    {
+      "opponent": "Florida State",
+      "isHome": false,
+      "startDate": "2026-09-07T23:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "UC Davis",
+      "isHome": true,
+      "startDate": "2026-09-12T20:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Louisville",
+      "isHome": false,
+      "startDate": "2026-09-19T19:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Missouri State",
+      "isHome": true,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Boston College",
+      "isHome": true,
+      "startDate": "2026-10-03T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Virginia",
+      "isHome": true,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "California",
+      "isHome": true,
+      "startDate": "2026-10-24T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Syracuse",
+      "isHome": false,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Virginia Tech",
+      "isHome": true,
+      "startDate": "2026-11-07T00:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Wake Forest",
+      "isHome": true,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Notre Dame",
+      "isHome": false,
+      "startDate": "2026-11-22T00:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Stanford",
+      "isHome": false,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Pitt": [
+    {
+      "opponent": "Miami (OH)",
+      "isHome": true,
+      "startDate": "2026-09-05T16:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "UCF",
+      "isHome": true,
+      "startDate": "2026-09-12T19:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Syracuse",
+      "isHome": true,
+      "startDate": "2026-09-17T23:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Bucknell",
+      "isHome": true,
+      "startDate": "2026-09-26T16:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Virginia Tech",
+      "isHome": false,
+      "startDate": "2026-10-02T23:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "North Carolina",
+      "isHome": true,
+      "startDate": "2026-10-10T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Boston College",
+      "isHome": false,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Miami",
+      "isHome": false,
+      "startDate": "2026-10-24T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Georgia Tech",
+      "isHome": true,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Florida State",
+      "isHome": true,
+      "startDate": "2026-11-14T00:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Louisville",
+      "isHome": false,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "California",
+      "isHome": false,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Arizona": [
+    {
+      "opponent": "Northern Arizona",
+      "isHome": true,
+      "startDate": "2026-09-06T01:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "BYU",
+      "isHome": false,
+      "startDate": "2026-09-12T19:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Northern Illinois",
+      "isHome": true,
+      "startDate": "2026-09-20T02:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Washington State",
+      "isHome": false,
+      "startDate": "2026-09-26T23:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Cincinnati",
+      "isHome": true,
+      "startDate": "2026-10-03T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "West Virginia",
+      "isHome": false,
+      "startDate": "2026-10-10T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Iowa State",
+      "isHome": true,
+      "startDate": "2026-10-24T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Texas Tech",
+      "isHome": false,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "TCU",
+      "isHome": true,
+      "startDate": "2026-11-07T03:15:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Utah",
+      "isHome": true,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Kansas State",
+      "isHome": false,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Arizona State",
+      "isHome": true,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Oklahoma State": [
+    {
+      "opponent": "Tulsa",
+      "isHome": false,
+      "startDate": "2026-09-05T19:45:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Oregon",
+      "isHome": true,
+      "startDate": "2026-09-12T16:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Murray State",
+      "isHome": true,
+      "startDate": "2026-09-19T23:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "West Virginia",
+      "isHome": false,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "UCF",
+      "isHome": true,
+      "startDate": "2026-10-10T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Houston",
+      "isHome": false,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Colorado",
+      "isHome": true,
+      "startDate": "2026-10-24T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Iowa State",
+      "isHome": false,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Kansas State",
+      "isHome": false,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Texas Tech",
+      "isHome": true,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Arizona State",
+      "isHome": false,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Kansas",
+      "isHome": true,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Minnesota": [
+    {
+      "opponent": "Eastern Illinois",
+      "isHome": true,
+      "startDate": "2026-09-04T00:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Mississippi State",
+      "isHome": true,
+      "startDate": "2026-09-12T19:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Akron",
+      "isHome": true,
+      "startDate": "2026-09-19T16:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Washington",
+      "isHome": false,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Michigan",
+      "isHome": true,
+      "startDate": "2026-10-03T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Purdue",
+      "isHome": false,
+      "startDate": "2026-10-10T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Iowa",
+      "isHome": true,
+      "startDate": "2026-10-24T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Indiana",
+      "isHome": false,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "UCLA",
+      "isHome": true,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Penn State",
+      "isHome": false,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Northwestern",
+      "isHome": true,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Wisconsin",
+      "isHome": false,
+      "startDate": "2026-11-28T00:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "BYU": [
+    {
+      "opponent": "Utah Tech",
+      "isHome": true,
+      "startDate": "2026-09-06T00:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Arizona",
+      "isHome": true,
+      "startDate": "2026-09-12T19:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Colorado State",
+      "isHome": false,
+      "startDate": "2026-09-19T23:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "TCU",
+      "isHome": false,
+      "startDate": "2026-10-03T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Iowa State",
+      "isHome": true,
+      "startDate": "2026-10-10T02:15:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Notre Dame",
+      "isHome": true,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "UCF",
+      "isHome": false,
+      "startDate": "2026-10-24T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Arizona State",
+      "isHome": true,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Utah",
+      "isHome": false,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Baylor",
+      "isHome": true,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Kansas",
+      "isHome": false,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Cincinnati",
+      "isHome": true,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Texas A&M": [
+    {
+      "opponent": "Missouri State",
+      "isHome": true,
+      "startDate": "2026-09-05T23:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Arizona State",
+      "isHome": true,
+      "startDate": "2026-09-12T16:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Kentucky",
+      "isHome": true,
+      "startDate": "2026-09-19T19:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "LSU",
+      "isHome": false,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Arkansas",
+      "isHome": true,
+      "startDate": "2026-10-03T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Missouri",
+      "isHome": false,
+      "startDate": "2026-10-10T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "The Citadel",
+      "isHome": true,
+      "startDate": "2026-10-17T17:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Alabama",
+      "isHome": false,
+      "startDate": "2026-10-24T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "South Carolina",
+      "isHome": false,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Tennessee",
+      "isHome": true,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Oklahoma",
+      "isHome": false,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Texas",
+      "isHome": true,
+      "startDate": "2026-11-28T00:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "NC State": [
+    {
+      "opponent": "Virginia",
+      "isHome": false,
+      "startDate": "2026-08-29T19:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Richmond",
+      "isHome": true,
+      "startDate": "2026-09-11T23:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Vanderbilt",
+      "isHome": false,
+      "startDate": "2026-09-19T16:45:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "App State",
+      "isHome": true,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Louisville",
+      "isHome": true,
+      "startDate": "2026-10-03T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Wake Forest",
+      "isHome": true,
+      "startDate": "2026-10-10T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Stanford",
+      "isHome": false,
+      "startDate": "2026-10-24T02:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "California",
+      "isHome": true,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Duke",
+      "isHome": true,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Syracuse",
+      "isHome": true,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Florida State",
+      "isHome": false,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "North Carolina",
+      "isHome": false,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Illinois": [
+    {
+      "opponent": "UAB",
+      "isHome": true,
+      "startDate": "2026-09-04T01:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Duke",
+      "isHome": true,
+      "startDate": "2026-09-12T19:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Southern Illinois",
+      "isHome": true,
+      "startDate": "2026-09-19T18:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Ohio State",
+      "isHome": false,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Purdue",
+      "isHome": true,
+      "startDate": "2026-10-03T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Michigan State",
+      "isHome": false,
+      "startDate": "2026-10-10T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Oregon",
+      "isHome": true,
+      "startDate": "2026-10-24T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Maryland",
+      "isHome": false,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Nebraska",
+      "isHome": true,
+      "startDate": "2026-11-07T01:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "UCLA",
+      "isHome": false,
+      "startDate": "2026-11-14T02:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Iowa",
+      "isHome": true,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Northwestern",
+      "isHome": false,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Baylor": [
+    {
+      "opponent": "Auburn",
+      "isHome": false,
+      "startDate": "2026-09-05T19:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Prairie View A&M",
+      "isHome": true,
+      "startDate": "2026-09-13T00:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Louisiana Tech",
+      "isHome": true,
+      "startDate": "2026-09-19T20:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Colorado",
+      "isHome": true,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Arizona State",
+      "isHome": false,
+      "startDate": "2026-10-03T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "TCU",
+      "isHome": true,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Kansas",
+      "isHome": false,
+      "startDate": "2026-10-24T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "UCF",
+      "isHome": false,
+      "startDate": "2026-10-30T23:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Iowa State",
+      "isHome": true,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "BYU",
+      "isHome": false,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Texas Tech",
+      "isHome": true,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Houston",
+      "isHome": false,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ],
+  "Cincinnati": [
+    {
+      "opponent": "Boston College",
+      "isHome": true,
+      "startDate": "2026-09-05T19:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Western Carolina",
+      "isHome": true,
+      "startDate": "2026-09-12T23:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Miami (OH)",
+      "isHome": true,
+      "startDate": "2026-09-19T19:30:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Kansas State",
+      "isHome": true,
+      "startDate": "2026-09-26T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Arizona",
+      "isHome": false,
+      "startDate": "2026-10-03T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "West Virginia",
+      "isHome": false,
+      "startDate": "2026-10-17T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Texas Tech",
+      "isHome": true,
+      "startDate": "2026-10-24T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Utah",
+      "isHome": true,
+      "startDate": "2026-10-31T04:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Houston",
+      "isHome": false,
+      "startDate": "2026-11-07T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Iowa State",
+      "isHome": false,
+      "startDate": "2026-11-14T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "Colorado",
+      "isHome": true,
+      "startDate": "2026-11-21T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    },
+    {
+      "opponent": "BYU",
+      "isHome": false,
+      "startDate": "2026-11-28T05:00:00.000Z",
+      "startTimeTBD": true,
+      "completed": false,
+      "teamPoints": null,
+      "opponentPoints": null
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "Auburn": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Arizona State": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Arizona": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "California": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "UCLA": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "USC": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Colorado": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Florida State": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Florida": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Georgia Tech": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Georgia": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Northwestern": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Indiana": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Notre Dame": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Kentucky": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Louisville": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "LSU": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Boston College": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Maryland": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Michigan": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Minnesota": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Missouri": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Ole Miss": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Duke": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "NC State": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "North Carolina": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Wake Forest": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Nebraska": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Ohio State": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Oklahoma State": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Oklahoma": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Penn State": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Pitt": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Clemson": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Vanderbilt": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Baylor": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Texas A&M": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Houston": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Texas": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "BYU": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Utah": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Virginia": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Virginia Tech": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Washington": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Wisconsin": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "West Virginia": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Alabama": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Illinois": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "UCF": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Cincinnati": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Iowa": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Kansas": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Kansas State": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Miami": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Oregon": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "SMU": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "South Carolina": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "TCU": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Tennessee": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  },
+  "Texas Tech": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 0
+  }
+}
