@@ -28,5 +28,21 @@ export function getStandings(records: TeamRecords): PersonStanding[] {
     },
   )
 
-  return standings.sort((a, b) => b.totalWins - a.totalWins)
+  const sorted = standings.sort((a, b) => b.totalWins - a.totalWins)
+
+  const winsCount = sorted.reduce(
+    (acc, entry) => {
+      acc[entry.totalWins] = (acc[entry.totalWins] ?? 0) + 1
+      return acc
+    },
+    {} as Record<number, number>,
+  )
+
+  let rank = 0
+  return sorted.map((entry, index) => {
+    if (index === 0 || entry.totalWins !== sorted[index - 1].totalWins) {
+      rank = index + 1
+    }
+    return { ...entry, rank, isTied: winsCount[entry.totalWins] > 1 }
+  })
 }

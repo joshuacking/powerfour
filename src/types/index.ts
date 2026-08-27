@@ -9,6 +9,8 @@ export interface PersonStanding {
   teams: string[]
   totalWins: number
   totalLosses: number
+  rank: number
+  isTied: boolean
 }
 
 export interface TeamGame {

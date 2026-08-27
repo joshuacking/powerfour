@@ -18,7 +18,7 @@ export default function Leaderboard() {
       )}
       {records && (
         <ul className="leaderboard-list">
-          {getStandings(records).map((entry, index) => {
+          {getStandings(records).map((entry) => {
             const isOpen = openPerson === entry.person
             return (
               <li className="leaderboard-item" key={entry.person}>
@@ -28,7 +28,9 @@ export default function Leaderboard() {
                   onClick={() => setOpenPerson(isOpen ? null : entry.person)}
                   aria-expanded={isOpen}
                 >
-                  <span className="rank">{index + 1}</span>
+                  <span className="rank">
+                    {entry.isTied ? `T-${entry.rank}` : entry.rank}
+                  </span>
                   <span className="person-name">{entry.person}</span>
                   <span className="record">
                     {entry.totalWins} <span className="record-label">W</span>
