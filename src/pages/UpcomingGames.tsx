@@ -1,6 +1,10 @@
 import { useState } from 'react'
-import { getStandings } from '../data/standings'
+import teamsByPerson from '../data/teams-by-person.json'
 import { getNextGame, getTeamOwner } from '../data/schedules'
+
+const roster = Object.entries(teamsByPerson as Record<string, string[]>).map(
+  ([person, teams]) => ({ person, teams }),
+)
 
 const dateFormatter = new Intl.DateTimeFormat(undefined, {
   weekday: 'short',
@@ -21,16 +25,15 @@ function formatKickoff(startDate: string, startTimeTBD: boolean): string {
 }
 
 export default function UpcomingGames() {
-  const standings = getStandings()
   const [openPerson, setOpenPerson] = useState<string | null>(
-    standings[0]?.person ?? null,
+    roster[0]?.person ?? null,
   )
 
   return (
     <div className="page">
       <h1 className="page-title">Upcoming Games</h1>
       <div className="team-list">
-        {standings.map((entry) => {
+        {roster.map((entry) => {
           const isOpen = openPerson === entry.person
           return (
             <div className="team-card" key={entry.person}>
