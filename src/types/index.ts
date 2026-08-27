@@ -16,6 +16,8 @@ export interface PersonStanding {
 export interface TeamGame {
   opponent: string
   isHome: boolean
+  week: number
+  seasonType: string
   startDate: string
   startTimeTBD: boolean
   completed: boolean

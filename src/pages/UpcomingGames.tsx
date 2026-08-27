@@ -1,11 +1,16 @@
 import { useState } from 'react'
 import teamsByPerson from '../data/teams-by-person.json'
 import {
+  getCurrentWeek,
+  getGameForWeek,
+  getGameResult,
   getNextGame,
   getTeamLogo,
   getTeamOwner,
   getTeamSchedule,
 } from '../data/schedules'
+import { useTeamSchedules } from '../hooks/useTeamSchedules'
+import type { TeamGame } from '../types'
 
 const roster = Object.entries(teamsByPerson as Record<string, string[]>).map(
   ([person, teams]) => ({ person, teams }),
@@ -34,10 +39,19 @@ export default function UpcomingGames() {
     roster[0]?.person ?? null,
   )
   const [drawerTeam, setDrawerTeam] = useState<string | null>(null)
+  const { schedules, loading, error } = useTeamSchedules()
+  const currentWeek = schedules ? getCurrentWeek(schedules) : null
 
   return (
     <div className="page">
       <h1 className="page-title">Upcoming Games</h1>
+      {loading && <p className="status-message">Loading schedules…</p>}
+      {error && !loading && (
+        <p className="status-message status-message-error">
+          Couldn't load schedules. Try reloading the page.
+        </p>
+      )}
+      {schedules && (
       <div className="team-list">
         {roster.map((entry) => {
           const isOpen = openPerson === entry.person
@@ -54,20 +68,24 @@ export default function UpcomingGames() {
               {isOpen && (
                 <ul className="team-sublist">
                   {entry.teams
-                    .map((team) => ({ team, nextGame: getNextGame(team) }))
+                    .map((team) => ({
+                      team,
+                      game:
+                        getGameForWeek(schedules, team, currentWeek) ??
+                        getNextGame(schedules, team),
+                    }))
                     .sort((a, b) => {
-                      if (!a.nextGame) return 1
-                      if (!b.nextGame) return -1
+                      if (!a.game) return 1
+                      if (!b.game) return -1
                       return (
-                        new Date(a.nextGame.startDate).getTime() -
-                        new Date(b.nextGame.startDate).getTime()
+                        new Date(a.game.startDate).getTime() -
+                        new Date(b.game.startDate).getTime()
                       )
                     })
-                    .map(({ team, nextGame }) => {
-                      const owner = nextGame
-                        ? getTeamOwner(nextGame.opponent)
-                        : null
+                    .map(({ team, game }) => {
+                      const owner = game ? getTeamOwner(game.opponent) : null
                       const logo = getTeamLogo(team)
+                      const result = game ? getGameResult(game) : null
                       return (
                         <li key={team} className="game-row">
                           <div className="game-row-top">
@@ -85,20 +103,24 @@ export default function UpcomingGames() {
                               )}
                               {team}
                             </button>
-                            {nextGame && (
+                            {game && (
                               <span className="kickoff">
+                                {game.week != null && (
+                                  <span className="week-label">
+                                    Wk {game.week}
+                                  </span>
+                                )}
                                 {formatKickoff(
-                                  nextGame.startDate,
-                                  nextGame.startTimeTBD,
+                                  game.startDate,
+                                  game.startTimeTBD,
                                 )}
                               </span>
                             )}
                           </div>
                           <div className="game-row-bottom">
-                            {nextGame ? (
+                            {game ? (
                               <span className="opponent">
-                                {nextGame.isHome ? 'vs' : '@'}{' '}
-                                {nextGame.opponent}
+                                {game.isHome ? 'vs' : '@'} {game.opponent}
                                 {owner && (
                                   <span className="opponent-owner-inline">
                                     {' '}
@@ -111,6 +133,13 @@ export default function UpcomingGames() {
                                 No games remaining
                               </span>
                             )}
+                            {result && (
+                              <span
+                                className={`score score-${result.outcome}`}
+                              >
+                                {result.label}
+                              </span>
+                            )}
                           </div>
                         </li>
                       )
@@ -121,8 +150,10 @@ export default function UpcomingGames() {
           )
         })}
       </div>
-      {drawerTeam && (
+      )}
+      {schedules && drawerTeam && (
         <TeamScheduleDrawer
+          schedules={schedules}
           team={drawerTeam}
           onClose={() => setDrawerTeam(null)}
         />
@@ -132,13 +163,15 @@ export default function UpcomingGames() {
 }
 
 function TeamScheduleDrawer({
+  schedules,
   team,
   onClose,
 }: {
+  schedules: Record<string, TeamGame[]>
   team: string
   onClose: () => void
 }) {
-  const games = getTeamSchedule(team)
+  const games = getTeamSchedule(schedules, team)
   const logo = getTeamLogo(team)
 
   return (
@@ -163,12 +196,16 @@ function TeamScheduleDrawer({
         <ul className="drawer-schedule">
           {games.map((game) => {
             const owner = getTeamOwner(game.opponent)
+            const result = getGameResult(game)
             return (
               <li
                 key={`${game.opponent}-${game.startDate}`}
                 className="game-row"
               >
                 <div className="game-row-top">
+                  {game.week != null && (
+                    <span className="week-label">Week {game.week}</span>
+                  )}
                   <span className="kickoff">
                     {formatKickoff(game.startDate, game.startTimeTBD)}
                   </span>
@@ -180,6 +217,11 @@ function TeamScheduleDrawer({
                       <span className="opponent-owner-inline"> ({owner})</span>
                     )}
                   </span>
+                  {result && (
+                    <span className={`score score-${result.outcome}`}>
+                      {result.label}
+                    </span>
+                  )}
                 </div>
               </li>
             )
