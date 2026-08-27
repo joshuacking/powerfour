@@ -7,6 +7,7 @@
   --accent: #7c3aed;
   --accent-bg: rgba(124, 58, 237, 0.1);
   --accent2: #0d7a6e;
+  --danger: #b3261e;
 
   --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
 
@@ -18,6 +19,20 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+:root[data-theme='dark'] {
+  --text: #c8c6cf;
+  --text-h: #f7f6f9;
+  --bg: #131218;
+  --bg-alt: #1c1a22;
+  --border: #322f3a;
+  --accent: #a78bfa;
+  --accent-bg: rgba(167, 139, 250, 0.18);
+  --accent2: #2dd4bf;
+  --danger: #ff6b6b;
+
+  color-scheme: dark;
 }
 
 * {
@@ -50,6 +65,9 @@ h2 {
   position: sticky;
   top: 0;
   z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background: var(--bg);
   border-bottom: 1px solid var(--border);
   padding: env(safe-area-inset-top, 0) 16px 0;
@@ -61,6 +79,34 @@ h2 {
   font-size: 22px;
   letter-spacing: -0.3px;
   color: var(--accent);
+}
+
+.theme-toggle {
+  width: 44px;
+  height: 24px;
+  flex-shrink: 0;
+  border-radius: 999px;
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  padding: 2px;
+  cursor: pointer;
+}
+
+.theme-toggle-thumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--accent);
+  font-size: 11px;
+  line-height: 1;
+  transition: transform 0.2s ease;
+}
+
+.theme-toggle[aria-checked='true'] .theme-toggle-thumb {
+  transform: translateX(20px);
 }
 
 .app-main {
@@ -87,7 +133,7 @@ h2 {
 }
 
 .status-message-error {
-  color: #b3261e;
+  color: var(--danger);
   opacity: 1;
 }
 
