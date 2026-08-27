@@ -44,7 +44,7 @@ export default function UpcomingGames() {
 
   return (
     <div className="page">
-      <h1 className="page-title">Upcoming Games</h1>
+      <h1 className="page-title">Games</h1>
       {loading && <p className="status-message">Loading schedules…</p>}
       {error && !loading && (
         <p className="status-message status-message-error">

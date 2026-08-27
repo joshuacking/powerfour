@@ -14,7 +14,7 @@ export default function BottomNav() {
         to="/upcoming"
         className={({ isActive }) => `nav-item${isActive ? ' active' : ''}`}
       >
-        Upcoming Games
+        Games
       </NavLink>
     </nav>
   )
