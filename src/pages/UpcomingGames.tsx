@@ -112,6 +112,7 @@ export default function UpcomingGames() {
                       const result =
                         getLiveResult(scoreboard, team) ??
                         (game ? getGameResult(game) : null)
+                      const network = game?.network ?? null
                       return (
                         <li key={team} className="game-row">
                           <div className="game-row-top">
@@ -130,10 +131,15 @@ export default function UpcomingGames() {
                               {team}
                             </button>
                             {game && (
-                              <span className="kickoff">
-                                {formatKickoff(
-                                  game.startDate,
-                                  game.startTimeTBD,
+                              <span className="kickoff-info">
+                                <span className="kickoff">
+                                  {formatKickoff(
+                                    game.startDate,
+                                    game.startTimeTBD,
+                                  )}
+                                </span>
+                                {network && (
+                                  <span className="network">{network}</span>
                                 )}
                               </span>
                             )}
@@ -226,13 +232,19 @@ function TeamScheduleDrawer({
             const result =
               (week === currentWeek ? getLiveResult(scoreboard, team) : null) ??
               (game ? getGameResult(game) : null)
+            const network = game?.network ?? null
             return (
               <li key={week} className="game-row">
                 <div className="game-row-top">
                   <span className="week-label">Week {week}</span>
                   {game && (
-                    <span className="kickoff">
-                      {formatKickoff(game.startDate, game.startTimeTBD)}
+                    <span className="kickoff-info">
+                      <span className="kickoff">
+                        {formatKickoff(game.startDate, game.startTimeTBD)}
+                      </span>
+                      {network && (
+                        <span className="network">{network}</span>
+                      )}
                     </span>
                   )}
                 </div>

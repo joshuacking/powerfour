@@ -9,7 +9,7 @@ interface UseTeamSchedulesResult {
   error: string | null
 }
 
-const CACHE_KEY = 'powerfour:schedules:v1'
+const CACHE_KEY = 'powerfour:schedules:v2'
 const CACHE_TTL_MS = 5 * 60 * 1000
 
 interface CacheEntry {

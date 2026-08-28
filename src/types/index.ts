@@ -23,6 +23,7 @@ export interface TeamGame {
   completed: boolean
   teamPoints: number | null
   opponentPoints: number | null
+  network: string | null
 }
 
 export interface ScoreboardEntry {
