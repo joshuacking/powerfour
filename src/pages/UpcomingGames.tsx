@@ -7,7 +7,7 @@ import {
   getNextGame,
   getTeamLogo,
   getTeamOwner,
-  getTeamSchedule,
+  getTeamScheduleByWeek,
 } from '../data/schedules'
 import { useTeamSchedules } from '../hooks/useTeamSchedules'
 import type { TeamGame } from '../types'
@@ -44,7 +44,9 @@ export default function UpcomingGames() {
 
   return (
     <div className="page">
-      <h1 className="page-title">Games</h1>
+      <h1 className="page-title">
+        Games{currentWeek != null && ` (Week ${currentWeek})`}
+      </h1>
       {loading && <p className="status-message">Loading schedules…</p>}
       {error && !loading && (
         <p className="status-message status-message-error">
@@ -105,11 +107,6 @@ export default function UpcomingGames() {
                             </button>
                             {game && (
                               <span className="kickoff">
-                                {game.week != null && (
-                                  <span className="week-label">
-                                    Wk {game.week}
-                                  </span>
-                                )}
                                 {formatKickoff(
                                   game.startDate,
                                   game.startTimeTBD,
@@ -171,7 +168,7 @@ function TeamScheduleDrawer({
   team: string
   onClose: () => void
 }) {
-  const games = getTeamSchedule(schedules, team)
+  const weeks = getTeamScheduleByWeek(schedules, team)
   const logo = getTeamLogo(team)
 
   return (
@@ -194,29 +191,30 @@ function TeamScheduleDrawer({
           </button>
         </div>
         <ul className="drawer-schedule">
-          {games.map((game) => {
-            const owner = getTeamOwner(game.opponent)
-            const result = getGameResult(game)
+          {weeks.map(({ week, game }) => {
+            const owner = game ? getTeamOwner(game.opponent) : null
+            const result = game ? getGameResult(game) : null
             return (
-              <li
-                key={`${game.opponent}-${game.startDate}`}
-                className="game-row"
-              >
+              <li key={week} className="game-row">
                 <div className="game-row-top">
-                  {game.week != null && (
-                    <span className="week-label">Week {game.week}</span>
+                  <span className="week-label">Week {week}</span>
+                  {game && (
+                    <span className="kickoff">
+                      {formatKickoff(game.startDate, game.startTimeTBD)}
+                    </span>
                   )}
-                  <span className="kickoff">
-                    {formatKickoff(game.startDate, game.startTimeTBD)}
-                  </span>
                 </div>
                 <div className="game-row-bottom">
-                  <span className="opponent">
-                    {game.isHome ? 'vs' : '@'} {game.opponent}
-                    {owner && (
-                      <span className="opponent-owner-inline"> ({owner})</span>
-                    )}
-                  </span>
+                  {game ? (
+                    <span className="opponent">
+                      {game.isHome ? 'vs' : '@'} {game.opponent}
+                      {owner && (
+                        <span className="opponent-owner-inline"> ({owner})</span>
+                      )}
+                    </span>
+                  ) : (
+                    <span className="opponent">BYE</span>
+                  )}
                   {result && (
                     <span className={`score score-${result.outcome}`}>
                       {result.label}

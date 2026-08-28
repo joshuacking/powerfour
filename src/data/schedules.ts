@@ -30,13 +30,6 @@ export function getNextGame(
   return games.find((game) => !game.completed) ?? null
 }
 
-export function getTeamSchedule(
-  schedules: Record<string, TeamGame[]>,
-  team: string,
-): TeamGame[] {
-  return schedules[team] ?? []
-}
-
 // The "current week" is the week of the soonest game that hasn't been
 // played yet, across all tracked teams. Once the season is over (every
 // game completed), falls back to the last week that was played.
@@ -71,6 +64,29 @@ export function getGameForWeek(
   if (week === null) return null
   const games = schedules[team] ?? []
   return games.find((game) => game.week === week) ?? null
+}
+
+// All week numbers that appear anywhere in the season's schedule, in
+// order. Used to fill in bye weeks for a team that has no game that
+// week.
+function getSeasonWeeks(schedules: Record<string, TeamGame[]>): number[] {
+  const weeks = new Set<number>()
+  for (const games of Object.values(schedules)) {
+    for (const game of games) weeks.add(game.week)
+  }
+  return Array.from(weeks).sort((a, b) => a - b)
+}
+
+export function getTeamScheduleByWeek(
+  schedules: Record<string, TeamGame[]>,
+  team: string,
+): { week: number; game: TeamGame | null }[] {
+  const games = schedules[team] ?? []
+  const gameByWeek = new Map(games.map((game) => [game.week, game]))
+  return getSeasonWeeks(schedules).map((week) => ({
+    week,
+    game: gameByWeek.get(week) ?? null,
+  }))
 }
 
 export function getGameResult(
