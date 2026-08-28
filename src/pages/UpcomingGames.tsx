@@ -1,16 +1,18 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import teamsByPerson from '../data/teams-by-person.json'
 import {
   getCurrentWeek,
   getGameForWeek,
   getGameResult,
+  getLiveResult,
   getNextGame,
   getTeamLogo,
   getTeamOwner,
   getTeamScheduleByWeek,
 } from '../data/schedules'
+import { useScoreboard } from '../hooks/useScoreboard'
 import { useTeamSchedules } from '../hooks/useTeamSchedules'
-import type { TeamGame } from '../types'
+import type { ScoreboardEntry, TeamGame } from '../types'
 
 const roster = Object.entries(teamsByPerson as Record<string, string[]>).map(
   ([person, teams]) => ({ person, teams }),
@@ -34,13 +36,27 @@ function formatKickoff(startDate: string, startTimeTBD: boolean): string {
   return `${datePart}, ${timeFormatter.format(date)}`
 }
 
+const OPEN_PERSON_KEY = 'powerfour:openPerson'
+
+function getInitialOpenPerson(): string | null {
+  const stored = localStorage.getItem(OPEN_PERSON_KEY)
+  if (stored && roster.some((entry) => entry.person === stored)) return stored
+  return roster[0]?.person ?? null
+}
+
 export default function UpcomingGames() {
   const [openPerson, setOpenPerson] = useState<string | null>(
-    roster[0]?.person ?? null,
+    getInitialOpenPerson,
   )
   const [drawerTeam, setDrawerTeam] = useState<string | null>(null)
   const { schedules, loading, error } = useTeamSchedules()
+  const { scoreboard } = useScoreboard()
   const currentWeek = schedules ? getCurrentWeek(schedules) : null
+
+  useEffect(() => {
+    if (openPerson) localStorage.setItem(OPEN_PERSON_KEY, openPerson)
+    else localStorage.removeItem(OPEN_PERSON_KEY)
+  }, [openPerson])
 
   return (
     <div className="page">
@@ -57,6 +73,9 @@ export default function UpcomingGames() {
       <div className="team-list">
         {roster.map((entry) => {
           const isOpen = openPerson === entry.person
+          const hasLiveGame = entry.teams.some(
+            (team) => getLiveResult(scoreboard, team) !== null,
+          )
           return (
             <div className="team-card" key={entry.person}>
               <button
@@ -65,7 +84,10 @@ export default function UpcomingGames() {
                 onClick={() => setOpenPerson(isOpen ? null : entry.person)}
                 aria-expanded={isOpen}
               >
-                <span className="person-name">{entry.person}</span>
+                <span className="person-name">
+                  {entry.person}
+                  {hasLiveGame && <span className="live-badge">LIVE</span>}
+                </span>
               </button>
               {isOpen && (
                 <ul className="team-sublist">
@@ -87,7 +109,9 @@ export default function UpcomingGames() {
                     .map(({ team, game }) => {
                       const owner = game ? getTeamOwner(game.opponent) : null
                       const logo = getTeamLogo(team)
-                      const result = game ? getGameResult(game) : null
+                      const result =
+                        getLiveResult(scoreboard, team) ??
+                        (game ? getGameResult(game) : null)
                       return (
                         <li key={team} className="game-row">
                           <div className="game-row-top">
@@ -151,6 +175,8 @@ export default function UpcomingGames() {
       {schedules && drawerTeam && (
         <TeamScheduleDrawer
           schedules={schedules}
+          scoreboard={scoreboard}
+          currentWeek={currentWeek}
           team={drawerTeam}
           onClose={() => setDrawerTeam(null)}
         />
@@ -161,10 +187,14 @@ export default function UpcomingGames() {
 
 function TeamScheduleDrawer({
   schedules,
+  scoreboard,
+  currentWeek,
   team,
   onClose,
 }: {
   schedules: Record<string, TeamGame[]>
+  scoreboard: Record<string, ScoreboardEntry> | null
+  currentWeek: number | null
   team: string
   onClose: () => void
 }) {
@@ -193,7 +223,9 @@ function TeamScheduleDrawer({
         <ul className="drawer-schedule">
           {weeks.map(({ week, game }) => {
             const owner = game ? getTeamOwner(game.opponent) : null
-            const result = game ? getGameResult(game) : null
+            const result =
+              (week === currentWeek ? getLiveResult(scoreboard, team) : null) ??
+              (game ? getGameResult(game) : null)
             return (
               <li key={week} className="game-row">
                 <div className="game-row-top">

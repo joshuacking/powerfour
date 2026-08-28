@@ -24,3 +24,11 @@ export interface TeamGame {
   teamPoints: number | null
   opponentPoints: number | null
 }
+
+export interface ScoreboardEntry {
+  status: 'scheduled' | 'in_progress' | 'completed'
+  period: number | null
+  clock: string | null
+  teamPoints: number | null
+  opponentPoints: number | null
+}

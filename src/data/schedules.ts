@@ -1,6 +1,6 @@
 import teamsByPerson from './teams-by-person.json'
 import teamLogos from './team-logos.json'
-import type { TeamGame } from '../types'
+import type { ScoreboardEntry, TeamGame } from '../types'
 
 const logos = teamLogos as Record<string, string>
 
@@ -108,4 +108,23 @@ export function getGameResult(
         : 'tie'
   const prefix = outcome === 'win' ? 'W' : outcome === 'loss' ? 'L' : 'T'
   return { label: `${prefix} ${teamPoints}-${opponentPoints}`, outcome }
+}
+
+export function getLiveResult(
+  scoreboard: Record<string, ScoreboardEntry> | null,
+  team: string,
+): { label: string; outcome: 'live' } | null {
+  const entry = scoreboard?.[team]
+  if (
+    !entry ||
+    entry.status !== 'in_progress' ||
+    entry.teamPoints === null ||
+    entry.opponentPoints === null
+  ) {
+    return null
+  }
+  const period = entry.period != null ? `Q${entry.period}` : ''
+  const clock = entry.clock ? ` ${entry.clock}` : ''
+  const label = `${period}${clock} ${entry.teamPoints}-${entry.opponentPoints}`
+  return { label: label.trim(), outcome: 'live' }
 }
