@@ -16,7 +16,10 @@ export default async function handler(req, res) {
 
   try {
     const records = await fetchTeamRecords(apiKey, YEAR)
-    res.setHeader('Cache-Control', 'no-store')
+    res.setHeader(
+      'Cache-Control',
+      's-maxage=300, stale-while-revalidate=60',
+    )
     res.status(200).json(records)
   } catch (err) {
     res.status(502).json({
