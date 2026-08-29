@@ -89,42 +89,57 @@ export function getTeamScheduleByWeek(
   }))
 }
 
-export function getGameResult(
-  game: TeamGame,
-): { label: string; outcome: 'win' | 'loss' | 'tie' } | null {
-  if (
-    !game.completed ||
-    game.teamPoints === null ||
-    game.opponentPoints === null
-  ) {
-    return null
-  }
-  const { teamPoints, opponentPoints } = game
-  const outcome =
-    teamPoints > opponentPoints
-      ? 'win'
-      : teamPoints < opponentPoints
-        ? 'loss'
-        : 'tie'
-  const prefix = outcome === 'win' ? 'W' : outcome === 'loss' ? 'L' : 'T'
-  return { label: `${prefix} ${teamPoints}-${opponentPoints}`, outcome }
-}
-
-export function getLiveResult(
+export function isTeamLive(
   scoreboard: Record<string, ScoreboardEntry> | null,
   team: string,
-): { label: string; outcome: 'live' } | null {
+): boolean {
+  const entry = scoreboard?.[team]
+  if (!entry) return false
+  return (
+    entry.status === 'in_progress' &&
+    entry.teamPoints !== null &&
+    entry.opponentPoints !== null
+  )
+}
+
+// Returns the current score for a team's game, from the live scoreboard
+// if the game is in progress, otherwise from the final schedule data if
+// the game has been completed. Returns null while the game is still
+// upcoming.
+export function getMatchupScores(
+  scoreboard: Record<string, ScoreboardEntry> | null,
+  team: string,
+  game: TeamGame,
+): {
+  teamPoints: number
+  opponentPoints: number
+  status: 'live' | 'final'
+  period: number | null
+  clock: string | null
+} | null {
   const entry = scoreboard?.[team]
   if (
-    !entry ||
-    entry.status !== 'in_progress' ||
-    entry.teamPoints === null ||
-    entry.opponentPoints === null
+    entry &&
+    entry.status === 'in_progress' &&
+    entry.teamPoints !== null &&
+    entry.opponentPoints !== null
   ) {
-    return null
+    return {
+      teamPoints: entry.teamPoints,
+      opponentPoints: entry.opponentPoints,
+      status: 'live',
+      period: entry.period,
+      clock: entry.clock,
+    }
   }
-  const period = entry.period != null ? `Q${entry.period}` : ''
-  const clock = entry.clock ? ` ${entry.clock}` : ''
-  const label = `${period}${clock} ${entry.teamPoints}-${entry.opponentPoints}`
-  return { label: label.trim(), outcome: 'live' }
+  if (game.completed && game.teamPoints !== null && game.opponentPoints !== null) {
+    return {
+      teamPoints: game.teamPoints,
+      opponentPoints: game.opponentPoints,
+      status: 'final',
+      period: null,
+      clock: null,
+    }
+  }
+  return null
 }

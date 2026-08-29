@@ -348,18 +348,12 @@ h2 {
   font-size: 14px;
 }
 
-.game-row-top {
+.game-row-top,
+.matchup-line {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   gap: 8px;
-}
-
-.kickoff-info {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 2px;
 }
 
 .kickoff {
@@ -375,10 +369,9 @@ h2 {
   white-space: nowrap;
 }
 
-.game-row-bottom {
+.game-meta {
   display: flex;
-  justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   gap: 8px;
 }
 
@@ -427,15 +420,12 @@ h2 {
   color: var(--danger);
 }
 
-.score-live::before {
-  content: '';
-  display: inline-block;
-  width: 6px;
-  height: 6px;
-  margin-right: 5px;
-  border-radius: 50%;
-  background: var(--danger);
-  animation: pulse 1.5s ease-in-out infinite;
+.live-clock {
+  margin-left: auto;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--danger);
+  white-space: nowrap;
 }
 
 @keyframes pulse {
