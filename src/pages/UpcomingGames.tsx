@@ -159,14 +159,16 @@ export default function UpcomingGames() {
                               )}
                               {team}
                             </button>
-                            {game && (
+                            {game && (!result || network) && (
                               <span className="kickoff-info">
-                                <span className="kickoff">
-                                  {formatKickoff(
-                                    game.startDate,
-                                    game.startTimeTBD,
-                                  )}
-                                </span>
+                                {!result && (
+                                  <span className="kickoff">
+                                    {formatKickoff(
+                                      game.startDate,
+                                      game.startTimeTBD,
+                                    )}
+                                  </span>
+                                )}
                                 {network && (
                                   <span className="network">{network}</span>
                                 )}
@@ -266,11 +268,13 @@ function TeamScheduleDrawer({
               <li key={week} className="game-row">
                 <div className="game-row-top">
                   <span className="week-label">Week {week}</span>
-                  {game && (
+                  {game && (!result || network) && (
                     <span className="kickoff-info">
-                      <span className="kickoff">
-                        {formatKickoff(game.startDate, game.startTimeTBD)}
-                      </span>
+                      {!result && (
+                        <span className="kickoff">
+                          {formatKickoff(game.startDate, game.startTimeTBD)}
+                        </span>
+                      )}
                       {network && (
                         <span className="network">{network}</span>
                       )}
