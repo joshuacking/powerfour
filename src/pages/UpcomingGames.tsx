@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import teamsByPerson from '../data/teams-by-person.json'
 import TeamLogo from '../components/TeamLogo'
 import {
@@ -142,16 +142,17 @@ function MatchupTeamLine({
 
 const OPEN_PERSON_KEY = 'powerfour:openPerson'
 
-function getInitialOpenPerson(): string | null {
+function getStoredOpenPerson(): string | null {
   const stored = localStorage.getItem(OPEN_PERSON_KEY)
   if (stored && roster.some((entry) => entry.person === stored)) return stored
-  return roster[0]?.person ?? null
+  return null
 }
 
 export default function UpcomingGames() {
   const [openPerson, setOpenPerson] = useState<string | null>(
-    getInitialOpenPerson,
+    getStoredOpenPerson,
   )
+  const hasInteracted = useRef(openPerson !== null)
   const [drawerTeam, setDrawerTeam] = useState<string | null>(null)
   const { schedules, loading, error } = useTeamSchedules()
   const {
@@ -174,6 +175,15 @@ export default function UpcomingGames() {
       return 0
     })
   }, [records, scoreboard])
+
+  // If nobody has an explicit preference (from localStorage or a manual
+  // toggle), default to the first person in the current standings order
+  // once it's loaded, rather than flashing draft order first.
+  useEffect(() => {
+    if (hasInteracted.current) return
+    if (!records) return
+    setOpenPerson(orderedRoster[0]?.person ?? null)
+  }, [records, orderedRoster])
 
   useEffect(() => {
     if (openPerson) localStorage.setItem(OPEN_PERSON_KEY, openPerson)
@@ -253,7 +263,10 @@ export default function UpcomingGames() {
               <button
                 type="button"
                 className="team-card-header"
-                onClick={() => setOpenPerson(isOpen ? null : entry.person)}
+                onClick={() => {
+                  hasInteracted.current = true
+                  setOpenPerson(isOpen ? null : entry.person)
+                }}
                 aria-expanded={isOpen}
               >
                 <span className="person-name">
