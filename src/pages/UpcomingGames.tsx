@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import teamsByPerson from '../data/teams-by-person.json'
 import TeamLogo from '../components/TeamLogo'
 import {
@@ -10,7 +10,9 @@ import {
   getTeamScheduleByWeek,
   isTeamLive,
 } from '../data/schedules'
+import { getStandings } from '../data/standings'
 import { useScoreboard } from '../hooks/useScoreboard'
+import { useTeamRecords } from '../hooks/useTeamRecords'
 import { useTeamSchedules } from '../hooks/useTeamSchedules'
 import type { ScoreboardEntry, TeamGame } from '../types'
 
@@ -157,7 +159,21 @@ export default function UpcomingGames() {
     loading: scoreboardLoading,
     refresh: refreshScoreboard,
   } = useScoreboard()
+  const { records } = useTeamRecords()
   const currentWeek = schedules ? getCurrentWeek(schedules) : null
+
+  // Order by current standings (best record first), with anyone who has
+  // a live game right now bumped to the top. Falls back to draft order
+  // until standings have loaded.
+  const orderedRoster = useMemo(() => {
+    const base = records ? getStandings(records) : roster
+    return [...base].sort((a, b) => {
+      const aLive = a.teams.some((team) => isTeamLive(scoreboard, team))
+      const bLive = b.teams.some((team) => isTeamLive(scoreboard, team))
+      if (aLive !== bLive) return aLive ? -1 : 1
+      return 0
+    })
+  }, [records, scoreboard])
 
   useEffect(() => {
     if (openPerson) localStorage.setItem(OPEN_PERSON_KEY, openPerson)
@@ -202,7 +218,7 @@ export default function UpcomingGames() {
       )}
       {schedules && (
       <div className="team-list">
-        {roster.map((entry) => {
+        {orderedRoster.map((entry) => {
           const isOpen = openPerson === entry.person
           const hasLiveGame = entry.teams.some((team) =>
             isTeamLive(scoreboard, team),
