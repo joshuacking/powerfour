@@ -292,22 +292,19 @@ export default function UpcomingGames() {
                                 )}
                               </div>
                             )}
-                            {matchup.live && (
+                            {matchup.hasResult && (
                               <div className="game-meta">
-                                {matchup.network && (
+                                {matchup.live && matchup.network && (
                                   <span className="network">
                                     {matchup.network}
                                   </span>
                                 )}
-                                <span className="live-clock">
-                                  {matchup.live}
-                                </span>
-                              </div>
-                            )}
-                            {matchup.hasResult && !matchup.live && matchup.network && (
-                              <div className="game-meta">
-                                <span className="network">
-                                  {matchup.network}
+                                <span
+                                  className={
+                                    matchup.live ? 'live-clock' : 'final-label'
+                                  }
+                                >
+                                  {matchup.live ?? 'Final'}
                                 </span>
                               </div>
                             )}
@@ -406,17 +403,16 @@ function TeamScheduleDrawer({
                         )}
                       </div>
                     )}
-                    {matchup.live && (
+                    {matchup.hasResult && (
                       <div className="game-meta">
-                        {matchup.network && (
+                        {matchup.live && matchup.network && (
                           <span className="network">{matchup.network}</span>
                         )}
-                        <span className="live-clock">{matchup.live}</span>
-                      </div>
-                    )}
-                    {matchup.hasResult && !matchup.live && matchup.network && (
-                      <div className="game-meta">
-                        <span className="network">{matchup.network}</span>
+                        <span
+                          className={matchup.live ? 'live-clock' : 'final-label'}
+                        >
+                          {matchup.live ?? 'Final'}
+                        </span>
                       </div>
                     )}
                   </>
