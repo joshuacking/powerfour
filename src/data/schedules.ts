@@ -103,9 +103,10 @@ export function isTeamLive(
 }
 
 // Returns the current score for a team's game, from the live scoreboard
-// if the game is in progress, otherwise from the final schedule data if
-// the game has been completed. Returns null while the game is still
-// upcoming.
+// if the game is in progress or has just finished there (the scoreboard
+// updates faster than the schedule data's `completed` flag), otherwise
+// from the final schedule data if the game has been completed. Returns
+// null while the game is still upcoming.
 export function getMatchupScores(
   scoreboard: Record<string, ScoreboardEntry> | null,
   team: string,
@@ -130,6 +131,20 @@ export function getMatchupScores(
       status: 'live',
       period: entry.period,
       clock: entry.clock,
+    }
+  }
+  if (
+    entry &&
+    entry.status === 'completed' &&
+    entry.teamPoints !== null &&
+    entry.opponentPoints !== null
+  ) {
+    return {
+      teamPoints: entry.teamPoints,
+      opponentPoints: entry.opponentPoints,
+      status: 'final',
+      period: null,
+      clock: null,
     }
   }
   if (game.completed && game.teamPoints !== null && game.opponentPoints !== null) {
