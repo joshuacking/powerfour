@@ -10,7 +10,7 @@
 import { writeFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import path from 'node:path'
-import { fetchTeamLogos } from '../lib/cfbd.mjs'
+import { fetchTeamIds, fetchTeamLogos } from '../lib/cfbd.mjs'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const dataDir = path.resolve(__dirname, '..', 'src', 'data')
@@ -33,3 +33,12 @@ writeFileSync(
 )
 
 console.log(`Wrote logos for ${Object.keys(logos).length} teams.`)
+
+const ids = await fetchTeamIds(API_KEY, YEAR)
+
+writeFileSync(
+  path.join(dataDir, 'team-ids.json'),
+  JSON.stringify(ids, null, 2) + '\n',
+)
+
+console.log(`Wrote IDs for ${Object.keys(ids).length} teams.`)
