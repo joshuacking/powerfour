@@ -34,7 +34,8 @@ export default function Leaderboard() {
                   </span>
                   <span className="person-name">{entry.person}</span>
                   <span className="record">
-                    {entry.totalWins} <span className="record-label">W</span>
+                    {entry.totalWins}-{entry.totalLosses}
+                    {entry.totalTies ? `-${entry.totalTies}` : ''}
                   </span>
                 </button>
                 {isOpen && (

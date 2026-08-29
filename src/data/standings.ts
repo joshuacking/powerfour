@@ -15,15 +15,17 @@ export function getStandings(records: TeamRecords): PersonStanding[] {
           const record = getTeamRecord(records, team)
           acc.wins += record.wins
           acc.losses += record.losses
+          acc.ties += record.ties
           return acc
         },
-        { wins: 0, losses: 0 },
+        { wins: 0, losses: 0, ties: 0 },
       )
       return {
         person,
         teams,
         totalWins: totals.wins,
         totalLosses: totals.losses,
+        totalTies: totals.ties,
       }
     },
   )
