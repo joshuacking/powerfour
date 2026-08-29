@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react'
 import teamsByPerson from '../data/teams-by-person.json'
+import TeamLogo from '../components/TeamLogo'
 import {
   getCurrentWeek,
   getGameForWeek,
   getMatchupScores,
   getNextGame,
-  getTeamLogo,
   getTeamOwner,
   getTeamScheduleByWeek,
   isTeamLive,
@@ -77,7 +77,6 @@ function getMatchup(
     road: {
       name: road,
       owner: getTeamOwner(road),
-      logo: getTeamLogo(road),
       score: roadPoints,
       outcome:
         scores && roadPoints !== null && homePoints !== null
@@ -87,7 +86,6 @@ function getMatchup(
     home: {
       name: home,
       owner: getTeamOwner(home),
-      logo: getTeamLogo(home),
       score: homePoints,
       outcome:
         scores && roadPoints !== null && homePoints !== null
@@ -103,21 +101,19 @@ function getMatchup(
 function MatchupTeamLine({
   name,
   owner,
-  logo,
   score,
   outcome,
   onSelect,
 }: {
   name: string
   owner: string | null
-  logo: string | null
   score: number | null
   outcome: 'win' | 'loss' | 'tie' | 'live' | null
   onSelect?: () => void
 }) {
   const label = (
     <>
-      {logo && <img src={logo} alt="" className="team-logo" />}
+      <TeamLogo team={name} className="team-logo" />
       {name}
       {owner && <span className="opponent-owner-inline"> ({owner})</span>}
     </>
@@ -262,7 +258,6 @@ export default function UpcomingGames() {
                             <MatchupTeamLine
                               name={matchup.road.name}
                               owner={matchup.road.owner}
-                              logo={matchup.road.logo}
                               score={matchup.road.score}
                               outcome={matchup.road.outcome}
                               onSelect={
@@ -274,7 +269,6 @@ export default function UpcomingGames() {
                             <MatchupTeamLine
                               name={matchup.home.name}
                               owner={matchup.home.owner}
-                              logo={matchup.home.logo}
                               score={matchup.home.score}
                               outcome={matchup.home.outcome}
                               onSelect={
@@ -360,16 +354,13 @@ function TeamScheduleDrawer({
   onClose: () => void
 }) {
   const weeks = getTeamScheduleByWeek(schedules, team)
-  const logo = getTeamLogo(team)
 
   return (
     <div className="drawer-overlay" onClick={onClose}>
       <div className="drawer" onClick={(e) => e.stopPropagation()}>
         <div className="drawer-header">
           <span className="drawer-title">
-            {logo && (
-              <img src={logo} alt="" className="team-logo team-logo-lg" />
-            )}
+            <TeamLogo team={team} className="team-logo team-logo-lg" />
             {team}
           </span>
           <button
@@ -396,14 +387,12 @@ function TeamScheduleDrawer({
                     <MatchupTeamLine
                       name={matchup.road.name}
                       owner={matchup.road.owner}
-                      logo={matchup.road.logo}
                       score={matchup.road.score}
                       outcome={matchup.road.outcome}
                     />
                     <MatchupTeamLine
                       name={matchup.home.name}
                       owner={matchup.home.owner}
-                      logo={matchup.home.logo}
                       score={matchup.home.score}
                       outcome={matchup.home.outcome}
                     />
