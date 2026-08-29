@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import type { ScoreboardEntry } from '../types'
 
 type Scoreboard = Record<string, ScoreboardEntry>
@@ -7,21 +7,21 @@ interface UseScoreboardResult {
   scoreboard: Scoreboard | null
   loading: boolean
   error: string | null
+  refresh: () => void
 }
 
-// Fetches live in-progress scores from /api/scoreboard on mount. Unlike
-// schedules, this is never cached in the browser — it's meant to
-// reflect whatever's happening right now, so it's refetched on every
-// page load/reload. No background polling: the user can just reload
-// the page to check for an update.
+// Fetches live in-progress scores from /api/scoreboard on mount, and
+// again whenever refresh() is called (e.g. from a manual refresh
+// button). Unlike schedules, this is never cached in the browser — it's
+// meant to reflect whatever's happening right now.
 export function useScoreboard(): UseScoreboardResult {
   const [scoreboard, setScoreboard] = useState<Scoreboard | null>(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
+  const requestId = useRef(0)
 
-  useEffect(() => {
-    let cancelled = false
-
+  const load = useCallback(() => {
+    const id = ++requestId.current
     setLoading(true)
     setError(null)
 
@@ -31,23 +31,23 @@ export function useScoreboard(): UseScoreboardResult {
         return res.json() as Promise<Scoreboard>
       })
       .then((data) => {
-        if (!cancelled) setScoreboard(data)
+        if (id === requestId.current) setScoreboard(data)
       })
       .catch((err) => {
-        if (!cancelled) {
+        if (id === requestId.current) {
           setError(
             err instanceof Error ? err.message : 'Failed to load scoreboard',
           )
         }
       })
       .finally(() => {
-        if (!cancelled) setLoading(false)
+        if (id === requestId.current) setLoading(false)
       })
-
-    return () => {
-      cancelled = true
-    }
   }, [])
 
-  return { scoreboard, loading, error }
+  useEffect(() => {
+    load()
+  }, [load])
+
+  return { scoreboard, loading, error, refresh: load }
 }

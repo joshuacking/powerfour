@@ -50,7 +50,11 @@ export default function UpcomingGames() {
   )
   const [drawerTeam, setDrawerTeam] = useState<string | null>(null)
   const { schedules, loading, error } = useTeamSchedules()
-  const { scoreboard } = useScoreboard()
+  const {
+    scoreboard,
+    loading: scoreboardLoading,
+    refresh: refreshScoreboard,
+  } = useScoreboard()
   const currentWeek = schedules ? getCurrentWeek(schedules) : null
 
   useEffect(() => {
@@ -60,9 +64,34 @@ export default function UpcomingGames() {
 
   return (
     <div className="page">
-      <h1 className="page-title">
-        Games{currentWeek != null && ` (Week ${currentWeek})`}
-      </h1>
+      <div className="page-header">
+        <h1 className="page-title">
+          Games{currentWeek != null && ` (Week ${currentWeek})`}
+        </h1>
+        <button
+          type="button"
+          className={`refresh-button${scoreboardLoading ? ' is-spinning' : ''}`}
+          onClick={refreshScoreboard}
+          disabled={scoreboardLoading}
+          aria-label="Refresh scores"
+        >
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path
+              d="M20 11A8 8 0 1 0 18.5 15.5"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+            />
+            <path
+              d="M20 5V11H14"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
       {loading && <p className="status-message">Loading schedules…</p>}
       {error && !loading && (
         <p className="status-message status-message-error">
