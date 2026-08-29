@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { getDraftPick } from '../data/draft'
 import { getStandings, getTeamRecord } from '../data/standings'
 import TeamLogo from '../components/TeamLogo'
 import { useTeamRecords } from '../hooks/useTeamRecords'
@@ -40,11 +41,15 @@ export default function Leaderboard() {
                   <ul className="team-sublist">
                     {entry.teams.map((team) => {
                       const record = getTeamRecord(records, team)
+                      const pick = getDraftPick(team)
                       return (
                         <li key={team} className="team-sublist-row">
                           <span className="team-name">
                             <TeamLogo team={team} className="team-logo" />
                             {team}
+                            {pick != null && (
+                              <span className="draft-pick"> ({pick})</span>
+                            )}
                           </span>
                           <span className="record">
                             {record.wins}-{record.losses}
