@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import teamsByPerson from '../data/teams-by-person.json'
 import TeamLogo from '../components/TeamLogo'
 import {
@@ -108,14 +108,12 @@ function MatchupTeamLine({
   score,
   outcome,
   onSelect,
-  meta,
 }: {
   name: string
   owner: string | null
   score: number | null
   outcome: 'win' | 'loss' | 'tie' | 'live' | null
   onSelect?: () => void
-  meta?: ReactNode
 }) {
   const label = (
     <>
@@ -137,10 +135,8 @@ function MatchupTeamLine({
       ) : (
         <span className="team-name">{label}</span>
       )}
-      {score !== null ? (
+      {score !== null && (
         <span className={`score score-${outcome}`}>{score}</span>
-      ) : (
-        meta
       )}
     </div>
   )
@@ -314,23 +310,6 @@ export default function UpcomingGames() {
                                   ? () => setDrawerTeam(matchup.road.name)
                                   : undefined
                               }
-                              meta={
-                                !matchup.hasResult ? (
-                                  <div className="game-kickoff-inline">
-                                    <span className="kickoff">
-                                      {formatKickoff(
-                                        game.startDate,
-                                        game.startTimeTBD,
-                                      )}
-                                    </span>
-                                    {matchup.network && (
-                                      <span className="network">
-                                        {matchup.network}
-                                      </span>
-                                    )}
-                                  </div>
-                                ) : undefined
-                              }
                             />
                             <MatchupTeamLine
                               name={matchup.home.name}
@@ -343,6 +322,21 @@ export default function UpcomingGames() {
                                   : undefined
                               }
                             />
+                            {!matchup.hasResult && (
+                              <div className="game-meta">
+                                <span className="kickoff">
+                                  {formatKickoff(
+                                    game.startDate,
+                                    game.startTimeTBD,
+                                  )}
+                                </span>
+                                {matchup.network && (
+                                  <span className="network">
+                                    {matchup.network}
+                                  </span>
+                                )}
+                              </div>
+                            )}
                             {!matchup.hasResult && line && (
                               <GameOdds line={line} />
                             )}
