@@ -346,19 +346,27 @@ h2 {
   font-size: 14px;
 }
 
-.game-row-top,
-.matchup-line {
+.game-row-top {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   gap: 8px;
 }
 
-.game-kickoff-row {
+.matchup-line {
   display: flex;
-  justify-content: flex-end;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 4px 8px;
+}
+
+.game-kickoff-inline {
+  display: flex;
   align-items: baseline;
   gap: 8px;
+  margin-left: auto;
+  white-space: nowrap;
 }
 
 .kickoff {

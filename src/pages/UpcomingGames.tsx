@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import teamsByPerson from '../data/teams-by-person.json'
 import TeamLogo from '../components/TeamLogo'
 import {
@@ -108,12 +108,14 @@ function MatchupTeamLine({
   score,
   outcome,
   onSelect,
+  meta,
 }: {
   name: string
   owner: string | null
   score: number | null
   outcome: 'win' | 'loss' | 'tie' | 'live' | null
   onSelect?: () => void
+  meta?: ReactNode
 }) {
   const label = (
     <>
@@ -135,8 +137,10 @@ function MatchupTeamLine({
       ) : (
         <span className="team-name">{label}</span>
       )}
-      {score !== null && (
+      {score !== null ? (
         <span className={`score score-${outcome}`}>{score}</span>
+      ) : (
+        meta
       )}
     </div>
   )
@@ -300,21 +304,6 @@ export default function UpcomingGames() {
                       <li key={team} className="game-row">
                         {game && matchup ? (
                           <>
-                            {!matchup.hasResult && (
-                              <div className="game-kickoff-row">
-                                <span className="kickoff">
-                                  {formatKickoff(
-                                    game.startDate,
-                                    game.startTimeTBD,
-                                  )}
-                                </span>
-                                {matchup.network && (
-                                  <span className="network">
-                                    {matchup.network}
-                                  </span>
-                                )}
-                              </div>
-                            )}
                             <MatchupTeamLine
                               name={matchup.road.name}
                               owner={matchup.road.owner}
@@ -324,6 +313,23 @@ export default function UpcomingGames() {
                                 schedules[matchup.road.name]
                                   ? () => setDrawerTeam(matchup.road.name)
                                   : undefined
+                              }
+                              meta={
+                                !matchup.hasResult ? (
+                                  <div className="game-kickoff-inline">
+                                    <span className="kickoff">
+                                      {formatKickoff(
+                                        game.startDate,
+                                        game.startTimeTBD,
+                                      )}
+                                    </span>
+                                    {matchup.network && (
+                                      <span className="network">
+                                        {matchup.network}
+                                      </span>
+                                    )}
+                                  </div>
+                                ) : undefined
                               }
                             />
                             <MatchupTeamLine
