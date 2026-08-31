@@ -4,6 +4,7 @@ import TeamLogo from '../components/TeamLogo'
 import {
   getCurrentWeek,
   getGameForWeek,
+  getGameLine,
   getMatchupScores,
   getNextGame,
   getTeamOwner,
@@ -11,10 +12,11 @@ import {
   isTeamLive,
 } from '../data/schedules'
 import { getStandings } from '../data/standings'
+import { useLines } from '../hooks/useLines'
 import { useScoreboard } from '../hooks/useScoreboard'
 import { useTeamRecords } from '../hooks/useTeamRecords'
 import { useTeamSchedules } from '../hooks/useTeamSchedules'
-import type { ScoreboardEntry, TeamGame } from '../types'
+import type { GameLine, ScoreboardEntry, TeamGame } from '../types'
 
 const roster = Object.entries(teamsByPerson as Record<string, string[]>).map(
   ([person, teams]) => ({ person, teams }),
@@ -140,6 +142,18 @@ function MatchupTeamLine({
   )
 }
 
+function GameOdds({ line }: { line: GameLine }) {
+  if (!line.formattedSpread && line.overUnder == null) return null
+  return (
+    <div className="game-meta">
+      {line.formattedSpread && <span className="odds">{line.formattedSpread}</span>}
+      {line.overUnder != null && (
+        <span className="odds">O/U {line.overUnder}</span>
+      )}
+    </div>
+  )
+}
+
 const OPEN_PERSON_KEY = 'powerfour:openPerson'
 
 function getStoredOpenPerson(): string | null {
@@ -161,6 +175,7 @@ export default function UpcomingGames() {
     refresh: refreshScoreboard,
   } = useScoreboard()
   const { records } = useTeamRecords()
+  const { lines } = useLines()
   const currentWeek = schedules ? getCurrentWeek(schedules) : null
 
   // Order by current standings (best record first), with anyone who has
@@ -280,6 +295,7 @@ export default function UpcomingGames() {
                     const matchup = game
                       ? getMatchup(team, game, scoreboard)
                       : null
+                    const line = game ? getGameLine(lines, team, game) : null
                     return (
                       <li key={team} className="game-row">
                         {game && matchup ? (
@@ -320,6 +336,9 @@ export default function UpcomingGames() {
                                   </span>
                                 )}
                               </div>
+                            )}
+                            {!matchup.hasResult && line && (
+                              <GameOdds line={line} />
                             )}
                             {matchup.hasResult && (
                               <div className="game-meta">

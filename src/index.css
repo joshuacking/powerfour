@@ -367,6 +367,13 @@ h2 {
   white-space: nowrap;
 }
 
+.odds {
+  font-size: 11px;
+  color: var(--text);
+  opacity: 0.6;
+  white-space: nowrap;
+}
+
 .game-meta {
   display: flex;
   align-items: center;

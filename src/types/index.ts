@@ -27,6 +27,11 @@ export interface TeamGame {
   network: string | null
 }
 
+export interface GameLine {
+  formattedSpread: string | null
+  overUnder: number | null
+}
+
 export interface ScoreboardEntry {
   status: 'scheduled' | 'in_progress' | 'completed'
   period: number | null

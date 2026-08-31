@@ -1,6 +1,6 @@
 import teamsByPerson from './teams-by-person.json'
 import teamLogos from './team-logos.json'
-import type { ScoreboardEntry, TeamGame } from '../types'
+import type { GameLine, ScoreboardEntry, TeamGame } from '../types'
 
 const logos = teamLogos as Record<string, string>
 
@@ -87,6 +87,14 @@ export function getTeamScheduleByWeek(
     week,
     game: gameByWeek.get(week) ?? null,
   }))
+}
+
+export function getGameLine(
+  lines: Record<string, GameLine> | null,
+  team: string,
+  game: TeamGame,
+): GameLine | null {
+  return lines?.[`${team}-${game.week}`] ?? null
 }
 
 export function isTeamLive(

@@ -1,6 +1,7 @@
 import react from '@vitejs/plugin-react'
 import { defineConfig, loadEnv } from 'vite'
 import {
+  fetchLines,
   fetchScoreboard,
   fetchTeamRecords,
   fetchTeamSchedules,
@@ -58,6 +59,33 @@ export default defineConfig(({ mode }) => {
               const schedules = await fetchTeamSchedules(apiKey, YEAR)
               res.setHeader('Content-Type', 'application/json')
               res.end(JSON.stringify(schedules))
+            } catch (err) {
+              res.statusCode = 502
+              res.end(
+                JSON.stringify({
+                  error: err instanceof Error ? err.message : String(err),
+                }),
+              )
+            }
+          })
+        },
+      },
+      {
+        // Mirrors api/lines.js locally so `npm run dev` behaves the
+        // same as the deployed Vercel serverless function.
+        name: 'cfbd-lines-dev-endpoint',
+        configureServer(server) {
+          server.middlewares.use('/api/lines', async (_req, res) => {
+            const apiKey = env.CFBD_API_KEY
+            if (!apiKey) {
+              res.statusCode = 500
+              res.end(JSON.stringify({ error: 'Missing CFBD_API_KEY in .env' }))
+              return
+            }
+            try {
+              const lines = await fetchLines(apiKey, YEAR)
+              res.setHeader('Content-Type', 'application/json')
+              res.end(JSON.stringify(lines))
             } catch (err) {
               res.statusCode = 502
               res.end(
