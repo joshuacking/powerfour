@@ -300,6 +300,21 @@ export default function UpcomingGames() {
                       <li key={team} className="game-row">
                         {game && matchup ? (
                           <>
+                            {!matchup.hasResult && (
+                              <div className="game-kickoff-row">
+                                <span className="kickoff">
+                                  {formatKickoff(
+                                    game.startDate,
+                                    game.startTimeTBD,
+                                  )}
+                                </span>
+                                {matchup.network && (
+                                  <span className="network">
+                                    {matchup.network}
+                                  </span>
+                                )}
+                              </div>
+                            )}
                             <MatchupTeamLine
                               name={matchup.road.name}
                               owner={matchup.road.owner}
@@ -322,21 +337,6 @@ export default function UpcomingGames() {
                                   : undefined
                               }
                             />
-                            {!matchup.hasResult && (
-                              <div className="game-meta">
-                                <span className="kickoff">
-                                  {formatKickoff(
-                                    game.startDate,
-                                    game.startTimeTBD,
-                                  )}
-                                </span>
-                                {matchup.network && (
-                                  <span className="network">
-                                    {matchup.network}
-                                  </span>
-                                )}
-                              </div>
-                            )}
                             {!matchup.hasResult && line && (
                               <GameOdds line={line} />
                             )}

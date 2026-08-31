@@ -354,6 +354,13 @@ h2 {
   gap: 8px;
 }
 
+.game-kickoff-row {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  gap: 8px;
+}
+
 .kickoff {
   font-size: 12px;
   color: var(--text);
