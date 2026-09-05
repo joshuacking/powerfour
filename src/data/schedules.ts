@@ -115,6 +115,13 @@ export function isTeamLive(
 // updates faster than the schedule data's `completed` flag), otherwise
 // from the final schedule data if the game has been completed. Returns
 // null while the game is still upcoming.
+//
+// The scoreboard is keyed by team name, but it only ever holds that
+// team's *most recent* game (see fetchScoreboard) — which, once a game
+// finishes, can be a different game than the one being rendered (e.g.
+// last week's final score bleeding into this week's not-yet-started
+// matchup). The gameId check makes sure the scoreboard entry actually
+// belongs to the game we're showing before trusting its score.
 export function getMatchupScores(
   scoreboard: Record<string, ScoreboardEntry> | null,
   team: string,
@@ -129,6 +136,7 @@ export function getMatchupScores(
   const entry = scoreboard?.[team]
   if (
     entry &&
+    entry.gameId === game.gameId &&
     entry.status === 'in_progress' &&
     entry.teamPoints !== null &&
     entry.opponentPoints !== null
@@ -143,6 +151,7 @@ export function getMatchupScores(
   }
   if (
     entry &&
+    entry.gameId === game.gameId &&
     entry.status === 'completed' &&
     entry.teamPoints !== null &&
     entry.opponentPoints !== null

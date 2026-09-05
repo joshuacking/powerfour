@@ -15,6 +15,7 @@ export interface PersonStanding {
 }
 
 export interface TeamGame {
+  gameId: number
   opponent: string
   isHome: boolean
   week: number
@@ -33,6 +34,7 @@ export interface GameLine {
 }
 
 export interface ScoreboardEntry {
+  gameId: number
   status: 'scheduled' | 'in_progress' | 'completed'
   period: number | null
   clock: string | null
