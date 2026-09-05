@@ -9,7 +9,10 @@ interface UseTeamSchedulesResult {
   error: string | null
 }
 
-const CACHE_KEY = 'powerfour:schedules:v2'
+// Bump this whenever the shape of a TeamGame changes (e.g. adding
+// `gameId`) so browsers with an old cached response fetch fresh data
+// instead of running the new code against stale-shaped fields.
+const CACHE_KEY = 'powerfour:schedules:v3'
 const CACHE_TTL_MS = 5 * 60 * 1000
 
 interface CacheEntry {
