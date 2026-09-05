@@ -63,15 +63,7 @@ export function getGameForWeek(
 ): TeamGame | null {
   if (week === null) return null
   const games = schedules[team] ?? []
-  // CFBD occasionally tags two of a team's games with the same week
-  // number (e.g. a late-August opener and the following week's game
-  // both coming back as "week 1"). When that happens, prefer whichever
-  // one hasn't been played yet over an already-completed one.
-  return (
-    games.find((game) => game.week === week && !game.completed) ??
-    games.find((game) => game.week === week) ??
-    null
-  )
+  return games.find((game) => game.week === week) ?? null
 }
 
 // All week numbers that appear anywhere in the season's schedule, in
