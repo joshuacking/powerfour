@@ -83,10 +83,16 @@ export function getTeamScheduleByWeek(
 ): { week: number; game: TeamGame | null }[] {
   const games = schedules[team] ?? []
   const gameByWeek = new Map(games.map((game) => [game.week, game]))
-  return getSeasonWeeks(schedules).map((week) => ({
-    week,
-    game: gameByWeek.get(week) ?? null,
-  }))
+  // Week 0 only exists for the handful of teams with an early opener
+  // (see fetchTeamSchedules); for everyone else it isn't a real bye
+  // week, just a week that never applied to them, so leave it out
+  // instead of showing "BYE".
+  return getSeasonWeeks(schedules)
+    .filter((week) => week !== 0 || gameByWeek.has(0))
+    .map((week) => ({
+      week,
+      game: gameByWeek.get(week) ?? null,
+    }))
 }
 
 export function getGameLine(
